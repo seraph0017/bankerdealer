@@ -1,0 +1,1202 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="UTF-8">
+    <title>Mini Sidebar | Clear Admin Template</title>
+    <meta content='width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no' name='viewport'>
+    <link rel="shortcut icon" href="img/favicon.ico" />
+    <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
+    <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+    <!--[if lt IE 9]>
+    <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
+    <script src="https://oss.maxcdn.com/libs/respond.js/1.3.0/respond.min.js"></script>
+    <![endif]-->
+    <!-- global css -->
+    <link type="text/css" href="css/app.css" rel="stylesheet" />
+    <!-- end of global css -->
+    <!--page level css -->
+    <link rel="stylesheet" type="text/css" href="vendors/animate/animate.min.css">
+    <link rel="stylesheet" type="text/css" href="css/custom.css">
+    <link rel="stylesheet" href="css/custom_css/skins/skin-default.css" type="text/css" id="skin" />
+    <link rel="stylesheet" type="text/css" href="css/mini_sidebar.css">
+    <!--end of page level css-->
+</head>
+
+<body class="skin-default mini_sidebar">
+    <div class="preloader">
+        <div class="loader_img"><img src="img/loader.gif" alt="loading..." height="64" width="64"></div>
+    </div>
+    <!-- header logo: style can be found in header-->
+    <header class="header">
+        <nav class="navbar navbar-static-top" role="navigation">
+            <a href="index.html" class="logo">
+                <!-- Add the class icon to your logo image or logo icon to add the margining -->
+                <img src="img/logo.png" alt="logo" />
+            </a>
+            <!-- Header Navbar: style can be found in header-->
+            <!-- Sidebar toggle button-->
+            <div>
+                <a href="#" class="navbar-btn sidebar-toggle" data-toggle="offcanvas" role="button"> <i class="fa fa-fw ti-menu"></i>
+                </a>
+            </div>
+            <div class="navbar-right">
+                <ul class="nav navbar-nav">
+                    <li class="dropdown messages-menu">
+                        <a href="#" class="dropdown-toggle" data-toggle="dropdown"> <i class="fa fa-fw ti-email black"></i>
+                            <span class="label label-success">2</span>
+                        </a>
+                        <ul class="dropdown-menu dropdown-messages table-striped">
+                            <li class="dropdown-title">New Messages</li>
+                            <li>
+                                <a href="" class="message striped-col">
+                                    <img class="message-image img-circle" src="img/authors/avatar7.jpg" alt="avatar-image">
+                                    <div class="message-body"><strong>Ernest Kerry</strong>
+                                        <br> Can we Meet?
+                                        <br>
+                                        <small>Just Now</small>
+                                        <span class="label label-success label-mini msg-lable">New</span>
+                                    </div>
+                                </a>
+                            </li>
+                            <li>
+                                <a href="" class="message">
+                                    <img class="message-image img-circle" src="img/authors/avatar6.jpg" alt="avatar-image">
+                                    <div class="message-body"><strong>John</strong>
+                                        <br> Dont forgot to call...
+                                        <br>
+                                        <small>5 minutes ago</small>
+                                        <span class="label label-success label-mini msg-lable">New</span>
+                                    </div>
+                                </a>
+                            </li>
+                            <li>
+                                <a href="" class="message striped-col">
+                                    <img class="message-image img-circle" src="img/authors/avatar5.jpg" alt="avatar-image">
+                                    <div class="message-body">
+                                        <strong>Wilton Zeph</strong>
+                                        <br> If there is anything else &hellip;
+                                        <br>
+                                        <small>14/10/2014 1:31 pm</small>
+                                    </div>
+                                </a>
+                            </li>
+                            <li>
+                                <a href="" class="message">
+                                    <img class="message-image img-circle" src="img/authors/avatar1.jpg" alt="avatar-image">
+                                    <div class="message-body">
+                                        <strong>Jenny Kerry</strong>
+                                        <br> Let me know when you free
+                                        <br>
+                                        <small>5 days ago</small>
+                                    </div>
+                                </a>
+                            </li>
+                            <li>
+                                <a href="" class="message striped-col">
+                                    <img class="message-image img-circle" src="img/authors/avatar.jpg" alt="avatar-image">
+                                    <div class="message-body">
+                                        <strong>Tony</strong>
+                                        <br> Let me know when you free
+                                        <br>
+                                        <small>5 days ago</small>
+                                    </div>
+                                </a>
+                            </li>
+                            <li class="dropdown-footer"><a href="#">View All messages</a></li>
+                        </ul>
+                    </li>
+                    <!--rightside toggle-->
+                    <li>
+                        <a href="#" class="dropdown-toggle toggle-right">
+                            <i class="fa fa-fw ti-view-list black"></i>
+                            <span class="label label-danger">9</span>
+                        </a>
+                    </li>
+                    <!-- User Account: style can be found in dropdown-->
+                    <li class="dropdown user user-menu">
+                        <a href="#" class="dropdown-toggle padding-user" data-toggle="dropdown">
+                            <img src="img/authors/avatar1.jpg" width="35" class="img-circle img-responsive pull-left" height="35" alt="User Image">
+                            <div class="riot">
+                                <div>
+                                    Addison
+                                    <span>
+                                        <i class="caret"></i>
+                                    </span>
+                                </div>
+                            </div>
+                        </a>
+                        <ul class="dropdown-menu">
+                            <!-- User image -->
+                            <li class="user-header">
+                                <img src="img/authors/avatar1.jpg" class="img-circle" alt="User Image">
+                                <p> Addison</p>
+                            </li>
+                            <!-- Menu Body -->
+                            <li class="p-t-3">
+                                <a href="user_profile.html">
+                                    <i class="fa fa-fw ti-user"></i> My Profile
+                                </a>
+                            </li>
+                            <li role="presentation"></li>
+                            <li>
+                                <a href="edit_user.html">
+                                    <i class="fa fa-fw ti-settings"></i> Account Settings
+                                </a>
+                            </li>
+                            <li role="presentation" class="divider"></li>
+                            <!-- Menu Footer-->
+                            <li class="user-footer">
+                                <div class="pull-left">
+                                    <a href="lockscreen.html">
+                                        <i class="fa fa-fw ti-lock"></i> Lock
+                                    </a>
+                                </div>
+                                <div class="pull-right">
+                                    <a href="login.html">
+                                        <i class="fa fa-fw ti-shift-right"></i> Logout
+                                    </a>
+                                </div>
+                            </li>
+                        </ul>
+                    </li>
+                </ul>
+            </div>
+        </nav>
+    </header>
+    <div class="wrapper row-offcanvas row-offcanvas-left">
+        <!-- Left side column. contains the logo and sidebar -->
+        <aside class="left-side sidebar-offcanvas">
+            <!-- sidebar: style can be found in sidebar-->
+            <section class="sidebar">
+                <div id="menu" role="navigation">
+                    <div class="nav_profile">
+                        <div class="media profile-left">
+                            <a class="pull-left profile-thumb" href="#">
+                                <img src="img/authors/avatar1.jpg" class="img-circle" alt="User Image">
+                            </a>
+                            <div class="content-profile">
+                                <h4 class="media-heading">
+                                Addison
+                            </h4>
+                                <ul class="icon-list">
+                                    <li>
+                                        <a href="users.html">
+                                            <i class="fa fa-fw ti-user"></i>
+                                        </a>
+                                    </li>
+                                    <li>
+                                        <a href="lockscreen.html"> <i class="fa fa-fw ti-lock"></i> </a>
+                                    </li>
+                                    <li>
+                                        <a href="edit_user.html"> <i class="fa fa-fw ti-settings"></i> </a>
+                                    </li>
+                                    <li>
+                                        <a href="login.html">
+                                            <i class="fa fa-fw ti-shift-right"></i>
+                                        </a>
+                                    </li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                    <ul class="navigation">
+                        <li>
+                            <a href="index.html">
+                                <i class="menu-icon ti-desktop"></i>
+                                <span class="mm-text">Dashboard 1</span>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="index2.html">
+                                <i class="menu-icon ti-layout-list-large-image"></i>
+                                <span class="mm-text">Dashboard 2</span>
+                            </a>
+                        </li>
+                        <li class="menu-dropdown">
+                            <a href="javascript:void(0)">
+                                <i class="menu-icon ti-check-box"></i>
+                                <span class="mm-text">Forms</span>
+                                <span class="fa arrow"></span>
+                            </a>
+                            <ul class="sub-menu">
+                                <li>
+                                    <a href="javascript:void(0)">
+                                        <i class="fa fa-fw ti-receipt"></i> <span class="mm-text">Features</span>
+                                        <span class="fa arrow"></span>
+                                    </a>
+                                    <ul class="sub-menu p-l-40">
+                                        <li>
+                                            <a href="form_elements.html"> <i class="fa fa-fw ti-cup"></i><span class="mm-text"> Form Elements</span> </a>
+                                        </li>
+                                        <li>
+                                            <a href="realtime_form.html"> <i class="fa fa-fw ti-write"></i> <span class="mm-text">Realtime Forms</span> </a>
+                                        </li>
+                                        <li>
+                                            <a href="form_validations.html">
+                                                <i class="fa fa-fw ti-alert"></i><span class="mm-text"> Form Validations</span>
+                                            </a>
+                                        </li>
+                                        <li>
+                                            <a href="form_layouts.html">
+                                                <i class="fa fa-fw ti-layout-width-default"></i> <span class="mm-text">Form Layouts</span>
+                                            </a>
+                                        </li>
+                                        <li>
+                                            <a href="complex_forms.html">
+                                                <i class="fa fa-fw ti-layout-cta-left"></i> <span class="mm-text">Complex Forms</span>
+                                            </a>
+                                        </li>
+                                        <li>
+                                            <a href="complex_forms2.html">
+                                                <i class="fa fa-fw ti-layout-cta-center"></i> <span class="mm-text">Complex Forms 2</span>
+                                            </a>
+                                        </li>
+                                        <li>
+                                            <a href="radio_checkboxes.html">
+                                                <i class="fa fa-fw ti-check-box"></i> <span class="mm-text">Radio and Checkbox</span>
+                                            </a>
+                                        </li>
+                                    </ul>
+                                </li>
+                                <li>
+                                    <a href="javascript:void(0)">
+                                        <i class="fa fa-fw ti-clipboard"></i> <span class="mm-text">Components</span>
+                                        <span class="fa arrow"></span>
+                                    </a>
+                                    <ul class="sub-menu p-l-40">
+                                        <li>
+                                            <a href="form_editors.html">
+                                                <i class="fa fa-fw ti-pencil"></i><span class="mm-text"> Form Editors</span>
+                                            </a>
+                                        </li>
+                                        <li>
+                                            <a href="form_wizards.html">
+                                                <i class="fa fa-fw ti-settings"></i> <span class="mm-text">Form Wizards</span>
+                                            </a>
+                                        </li>
+                                        <li>
+                                            <a href="dropdowns.html">
+                                                <i class="fa fa-fw ti-widget-alt"></i><span class="mm-text"> Drop Downs</span>
+                                            </a>
+                                        </li>
+                                        <li>
+                                            <a href="datepicker.html">
+                                                <i class="fa fa-fw ti-calendar"></i> <span class="mm-text">Date pickers</span>
+                                            </a>
+                                        </li>
+                                        <li>
+                                            <a href="advanceddate_pickers.html">
+                                                <i class="fa fa-fw ti-notepad"></i><span class="mm-text"> Advanced Date pickers</span>
+                                            </a>
+                                        </li>
+                                        <li>
+                                            <a href="x-editable.html">
+                                                <i class="fa fa-fw ti-slice"></i><span class="mm-text"> X-editable</span>
+                                            </a>
+                                        </li>
+                                    </ul>
+                                </li>
+                            </ul>
+                        </li>
+                        <li class="menu-dropdown">
+                            <a href="#">
+                                <i class="menu-icon ti-desktop"></i>
+                                <span class="mm-text">
+                                    UI Features
+                                </span>
+                                <span class="fa arrow"></span>
+                            </a>
+                            <ul class="sub-menu">
+                                <li>
+                                    <a href="general_components.html">
+                                        <i class="fa fa-fw ti-plug"></i> <span class="mm-text">General Components</span>
+                                    </a>
+                                </li>
+                                <li>
+                                    <a href="buttons.html">
+                                        <i class="fa fa-fw ti-layout-placeholder"></i><span class="mm-text"> Buttons</span>
+                                    </a>
+                                </li>
+                                <li>
+                                    <a href="tabs_accordions.html">
+                                        <i class="fa fa-fw ti-layers"></i><span class="mm-text"> Tabs &amp; Accordions</span>
+                                    </a>
+                                </li>
+                                <li>
+                                    <a href="fonts.html">
+                                        <i class="fa fa-fw ti-ink-pen"></i> <span class="mm-text">Font Icons</span>
+                                    </a>
+                                </li>
+                                <li>
+                                    <a href="advanced_modals.html">
+                                        <i class="fa fa-fw ti-brush-alt"></i> <span class="mm-text">Advanced Modals</span>
+                                    </a>
+                                </li>
+                                <li>
+                                    <a href="timeline.html">
+                                        <i class="fa fa-fw ti-time"></i> <span class="mm-text">Timeline</span>
+                                    </a>
+                                </li>
+                                <li>
+                                    <a href="notifications.html">
+                                        <i class="fa fa-fw ti-flag-alt"></i> <span class="mm-text">Notifications</span>
+                                    </a>
+                                </li>
+                            </ul>
+                        </li>
+                        <li class="menu-dropdown">
+                            <a href="#">
+                                <i class="menu-icon ti-briefcase"></i>
+                                <span class="mm-text">
+                                    UI Components
+                                </span>
+                                <span class="fa arrow"></span>
+                            </a>
+                            <ul class="sub-menu">
+                                <li>
+                                    <a href="pickers.html">
+                                        <i class="fa fa-fw ti-brush"></i> <span class="mm-text">Pickers</span>
+                                    </a>
+                                </li>
+                                <li>
+                                    <a href="grid_layout.html">
+                                        <i class="fa fa-fw ti-layout-grid2"></i><span class="mm-text"> Grid Layout</span>
+                                    </a>
+                                </li>
+                                <li>
+                                    <a href="tags_input.html">
+                                        <i class="fa fa-fw ti-tag"></i> <span class="mm-text">Tags Input</span>
+                                    </a>
+                                </li>
+                                <li>
+                                    <a href="nestable_list.html">
+                                        <i class="fa fa-fw ti-view-list"></i> <span class="mm-text">Nestable List</span>
+                                    </a>
+                                </li>
+                                <li>
+                                    <a href="sweet_alert.html">
+                                        <i class="fa fa-fw ti-bell"></i><span class="mm-text"> Sweet Alert</span>
+                                    </a>
+                                </li>
+                                <li>
+                                    <a href="toastr_notifications.html">
+                                        <i class="fa fa-fw ti-tablet"></i> <span class="mm-text">Toastr Notifications</span>
+                                    </a>
+                                </li>
+                                <li>
+                                    <a href="draggable_portlets.html">
+                                        <i class="fa fa-fw ti-control-shuffle"></i><span class="mm-text"> Draggable Portlets</span>
+                                    </a>
+                                </li>
+                                <li>
+                                    <a href="transitions.html"> <i class="fa fa-fw ti-star"></i><span class="mm-text"> Transitions</span> </a>
+                                </li>
+                            </ul>
+                        </li>
+                        <li class="menu-dropdown">
+                            <a href="#">
+                                <i class="menu-icon ti-widget"></i>
+                                <span class="mm-text">Widgets</span>
+                                <span class="fa arrow"></span>
+                            </a>
+                            <ul class="sub-menu">
+                                <li>
+                                    <a href="widgets.html">
+                                        <i class=" menu-icon fa fa-fw ti-widgetized"></i><span class="mm-text"> Widgets 1</span>
+                                    </a>
+                                </li>
+                                <li>
+                                    <a href="widgets1.html">
+                                        <i class=" menu-icon fa fa-fw ti-widget-alt"></i><span class="mm-text"> Widgets 2</span>
+                                    </a>
+                                </li>
+                            </ul>
+                        </li>
+                        <li class="menu-dropdown">
+                            <a href="#"> <i class="menu-icon ti-layout-grid4"></i>
+                                <span class="mm-text">DataTables</span>
+                                <span class="fa arrow">
+                                </span>
+                            </a>
+                            <ul class="sub-menu">
+                                <li>
+                                    <a href="simple_tables.html">
+                                        <i class="fa fa-fw ti-layout"></i> <span class="mm-text">Simple tables</span>
+                                    </a>
+                                </li>
+                                <li>
+                                    <a href="datatables.html">
+                                        <i class="fa fa-fw ti-server"></i><span class="mm-text"> Data Tables</span>
+                                    </a>
+                                </li>
+                                <li>
+                                    <a href="advanced_datatables.html">
+                                        <i class="fa fa-fw ti-layout-grid3"></i><span class="mm-text"> Advanced Tables</span>
+                                    </a>
+                                </li>
+                                <li>
+                                    <a href="responsive_datatables.html">
+                                        <i class="fa fa-fw ti-layout-accordion-merged"></i> <span class="mm-text">Responsive DataTables</span>
+                                    </a>
+                                </li>
+                                <li>
+                                    <a href="bootstrap_tables.html">
+                                        <i class="fa fa-fw ti-layout-grid2"></i><span class="mm-text"> Bootstrap Tables</span>
+                                    </a>
+                                </li>
+                            </ul>
+                        </li>
+                        <li class="menu-dropdown">
+                            <a href="#"> <i class="menu-icon ti-bar-chart"></i> <span class="mm-text">Charts</span> <span class="fa arrow"></span> </a>
+                            <ul class="sub-menu">
+                                <li>
+                                    <a href="flot_charts.html">
+                                        <i class="fa fa-fw ti-bar-chart-alt"></i><span class="mm-text"> Flot Charts</span>
+                                    </a>
+                                </li>
+                                <li>
+                                    <a href="nvd3_charts.html"> <i class="fa fa-fw ti-stats-up"></i><span class="mm-text"> NVD3 Charts</span> </a>
+                                </li>
+                                <li>
+                                    <a href="circle_sliders.html"> <i class="fa fa-fw ti-basketball"></i><span class="mm-text"> Circle Sliders</span>
+                                    </a>
+                                </li>
+                                <li>
+                                    <a href="chartjs_charts.html"> <i class="fa fa-fw ti-pie-chart"></i><span class="mm-text"> Chartjs Charts</span> </a>
+                                </li>
+                                <li>
+                                    <a href="dimple_charts.html"> <i class="fa fa-fw ti-save-alt"></i><span class="mm-text"> Dimple Charts </span></a>
+                                </li>
+                                <li>
+                                    <a href="amcharts.html"> <i class="fa fa-fw ti-stats-up"></i><span class="mm-text"> Amcharts</span> </a>
+                                </li>
+                                <li>
+                                    <a href="chartist.html"> <i class="fa fa-fw ti-bar-chart"></i><span class="mm-text"> Chartist Charts </span></a>
+                                </li>
+                            </ul>
+                        </li>
+                        <li class="menu-dropdown">
+                            <a href="#">
+                                <i class="menu-icon ti-calendar"></i>
+                                <span class="mm-text">Calendar</span>
+                                <span class="fa arrow"></span>
+                            </a>
+                            <ul class="sub-menu">
+                                <li>
+                                    <a href="calendar.html">
+                                        <i class=" menu-icon fa fa-fw ti-video-clapper"></i>
+                                        <span class="mm-text">Calendar</span>
+                                        <small class="badge">7</small>
+                                    </a>
+                                </li>
+                                <li>
+                                    <a href="calendar2.html">
+                                        <i class=" menu-icon fa fa-fw ti-calendar"></i>
+                                        <span class="mm-text">Advanced Calendar</span>
+                                        <small class="badge badge1">6</small>
+                                    </a>
+                                </li>
+                            </ul>
+                        </li>
+                        <li class="menu-dropdown">
+                            <a href="#">
+                                <i class="menu-icon ti-gallery"></i>
+                                <span class="mm-text">Gallery</span>
+                                <span class="fa arrow"></span>
+                            </a>
+                            <ul class="sub-menu">
+                                <li>
+                                    <a href="masonry_gallery.html">
+                                        <i class="fa fa-fw ti-gallery"></i> <span class="mm-text">Masonry Gallery</span>
+                                    </a>
+                                </li>
+                                <li>
+                                    <a href="multiplefile_upload.html">
+                                        <i class="fa fa-fw ti-upload"></i> <span class="mm-text">Multiple File Upload</span>
+                                    </a>
+                                </li>
+                                <li>
+                                    <a href="dropify.html">
+                                        <i class="fa fa-fw ti-dropbox"></i> <span class="mm-text">Dropify</span>
+                                    </a>
+                                </li>
+                                <li>
+                                    <a href="image_hover.html">
+                                        <i class="fa fa-fw ti-image"></i> <span class="mm-text">Image Hover</span>
+                                    </a>
+                                </li>
+                                <li>
+                                    <a href="image_filter.html">
+                                        <i class="fa fa-fw ti-filter"></i> <span class="mm-text">Image Filter</span>
+                                    </a>
+                                </li>
+                                <li>
+                                    <a href="image_magnifier.html">
+                                        <i class="fa fa-fw ti-zoom-in"></i> <span class="mm-text">Image Magnifier</span>
+                                    </a>
+                                </li>
+                            </ul>
+                        </li>
+                        <li class="menu-dropdown">
+                            <a href="#"> <i class="menu-icon ti-user"></i>
+                                <span class="mm-text">Users</span>
+                                <span class="fa arrow"></span>
+                            </a>
+                            <ul class="sub-menu">
+                                <li>
+                                    <a href="users.html">
+                                        <i class="fa fa-fw ti-menu-alt" aria-hidden="true"></i> <span class="mm-text">Users List</span>
+                                    </a>
+                                </li>
+                                <li>
+                                    <a href="addnew_user.html">
+                                        <i class="fa fa-fw ti-user"></i> <span class="mm-text">Add New User</span>
+                                    </a>
+                                </li>
+                                <li>
+                                    <a href="user_profile.html">
+                                        <i class="fa fa-fw ti-id-badge"></i> <span class="mm-text">View Profile</span>
+                                    </a>
+                                </li>
+                                <li>
+                                    <a href="deleted_users.html">
+                                        <i class="fa fa-fw ti-trash"></i> <span class="mm-text">Deleted Users</span>
+                                    </a>
+                                </li>
+                            </ul>
+                        </li>
+                        <li class="menu-dropdown">
+                            <a href="#">
+                                <i class="menu-icon ti-location-pin"></i>
+                                <span class="mm-text">Maps</span>
+                                <span class="fa arrow"></span>
+                            </a>
+                            <ul class="sub-menu">
+                                <li>
+                                    <a href="google_maps.html">
+                                        <i class="fa fa-fw ti-world"></i> <span class="mm-text">Google Maps</span>
+                                    </a>
+                                </li>
+                                <li>
+                                    <a href="vector_maps.html">
+                                        <i class="fa fa-fw ti-map"></i><span class="mm-text"> Vector Maps</span>
+                                    </a>
+                                </li>
+                                <li>
+                                    <a href="advanced_maps.html">
+                                        <i class="fa fa-fw ti-map-alt"></i> <span class="mm-text">Advanced Maps</span>
+                                    </a>
+                                </li>
+                            </ul>
+                        </li>
+                        <li class="menu-dropdown">
+                            <a href="#">
+                                <i class="menu-icon ti-files"></i>
+                                <span class="mm-text">Pages</span>
+                                <span class="fa arrow"></span>
+                            </a>
+                            <ul class="sub-menu">
+                                <li>
+                                    <a href="blank.html">
+                                        <i class="fa fa-fw ti-file"></i> <span class="mm-text">Blank</span>
+                                    </a>
+                                </li>
+                                <li>
+                                    <a href="invoice.html">
+                                        <i class="fa fa-fw ti-layout-cta-left"></i><span class="mm-text"> Invoice</span>
+                                    </a>
+                                </li>
+                                <li>
+                                    <a href="session_timeout.html">
+                                        <i class="fa fa-fw ti-time"></i> <span class="mm-text">Session Timeout</span>
+                                    </a>
+                                </li>
+                                <li>
+                                    <a href="login.html">
+                                        <i class="fa fa-fw ti-shift-right"></i> <span class="mm-text">Login</span>
+                                    </a>
+                                </li>
+                                <li>
+                                    <a href="register.html">
+                                        <i class="fa fa-fw ti-check-box"></i> <span class="mm-text">Register</span>
+                                    </a>
+                                </li>
+                                <li>
+                                    <a href="forgot_password.html"> <i class="fa fa-fw ti-help"></i> <span class="mm-text">Forgot Password</span> </a>
+                                </li>
+                                <li>
+                                    <a href="reset_password.html"> <i class="fa fa-fw ti-key"></i> <span class="mm-text">Reset Password</span> </a>
+                                </li>
+                                <li>
+                                    <a href="lockscreen.html">
+                                        <i class="fa fa-fw ti-lock"></i> <span class="mm-text">Lockscreen</span>
+                                    </a>
+                                </li>
+                                <li>
+                                    <a href="404.html">
+                                        <i class="fa fa-fw ti-unlink"></i><span class="mm-text"> 404 Error</span>
+                                    </a>
+                                </li>
+                                <li>
+                                    <a href="500.html">
+                                        <i class="fa fa-fw ti-face-sad"></i> <span class="mm-text">500 Error</span>
+                                    </a>
+                                </li>
+                            </ul>
+                        </li>
+                        <li class="menu-dropdown active">
+                            <a href="#">
+                                <i class="menu-icon ti-layout-grid3"></i>
+                                <span class="mm-text">Layouts</span>
+                                <span class="fa arrow"></span>
+                            </a>
+                            <ul class="sub-menu">
+                                <li>
+                                    <a href="menubarfold.html">
+                                        <i class="fa fa-fw ti-layout-menu-v"></i><span class="mm-text"> Menubar Fold</span>
+                                    </a>
+                                </li>
+                                <li>
+                                    <a href="horizontal_menu.html">
+                                        <i class="fa fa-fw ti-layout-menu-full"></i><span class="mm-text"> Horizontal Menu</span>
+                                    </a>
+                                </li>
+                                <li class="active" id="active">
+                                    <a href="mini_sidebar.html">
+                                        <i class="fa fa-fw ti-layout-menu-v"></i><span class="mm-text"> Mini Sidebar</span>
+                                    </a>
+                                </li>
+                                <li>
+                                    <a href="boxed_movable_header.html">
+                                        <i class="fa fa-fw ti-layout-grid2"></i><span class="mm-text"> Boxed &amp; Movable Header</span>
+                                    </a>
+                                </li>
+                                <li>
+                                    <a href="layout_movable_header.html">
+                                        <i class="fa fa-fw ti-view-list-alt"></i> <span class="mm-text">Movable Header</span>
+                                    </a>
+                                </li>
+                                <li>
+                                    <a href="layout_boxed_fixed_header.html">
+                                        <i class="fa fa-fw ti-view-list"></i> <span class="mm-text">Boxed &amp; Fixed Header</span>
+                                    </a>
+                                </li>
+                                <li>
+                                    <a href="layout_fixed.html">
+                                        <i class="fa fa-fw ti-layout-column2"></i> <span class="mm-text">Fixed Header &amp; Menu</span>
+                                    </a>
+                                </li>
+                            </ul>
+                        </li>
+                        <li class="menu-dropdown">
+                            <a href="#">
+                                <i class="menu-icon ti-menu"></i>
+                                <span class="mm-text">
+                                    Menu levels
+                                </span>
+                                <span class="fa arrow"></span>
+                            </a>
+                            <ul class="sub-menu">
+                                <li>
+                                    <a href="#">
+                                        <i class="fa fa-fw ti-control-skip-forward"></i><span class="mm-text"> Level 1</span>
+                                        <span class="fa arrow"></span>
+                                    </a>
+                                    <ul class="sub-menu sub-submenu">
+                                        <li>
+                                            <a href="#">
+                                                <i class="fa fa-fw ti-control-skip-forward"></i> <span class="mm-text">Level 2</span>
+                                            </a>
+                                        </li>
+                                        <li>
+                                            <a href="#">
+                                                <i class="fa fa-fw ti-control-skip-forward"></i> <span class="mm-text">Level 2</span>
+                                            </a>
+                                        </li>
+                                        <li>
+                                            <a href="#">
+                                                <i class="fa fa-fw ti-control-skip-forward"></i> <span class="mm-text">Level 2</span>
+                                                <span class="fa arrow"></span>
+                                            </a>
+                                            <ul class="sub-menu sub-submenu">
+                                                <li>
+                                                    <a href="#">
+                                                        <i class="fa fa-fw ti-control-skip-forward"></i><span class="mm-text"> Level 3</span>
+                                                    </a>
+                                                </li>
+                                                <li>
+                                                    <a href="#">
+                                                        <i class="fa fa-fw ti-control-skip-forward"></i> <span class="mm-text">Level 3</span>
+                                                    </a>
+                                                </li>
+                                                <li>
+                                                    <a href="#">
+                                                        <i class="fa fa-fw ti-control-skip-forward"></i><span class="mm-text"> Level 3</span>
+                                                        <span class="fa arrow"></span>
+                                                    </a>
+                                                    <ul class="sub-menu sub-submenu">
+                                                        <li>
+                                                            <a href="#">
+                                                                <i class="fa fa-fw ti-control-skip-forward"></i> <span class="mm-text">Level 4</span>
+                                                            </a>
+                                                        </li>
+                                                        <li>
+                                                            <a href="#">
+                                                                <i class="fa fa-fw ti-control-skip-forward"></i> <span class="mm-text">Level 4</span>
+                                                            </a>
+                                                        </li>
+                                                        <li>
+                                                            <a href="#">
+                                                                <i class="fa fa-fw ti-control-skip-forward"></i> <span class="mm-text">Level 4</span>
+                                                                <span class="fa arrow"></span>
+                                                            </a>
+                                                            <ul class="sub-menu sub-submenu">
+                                                                <li>
+                                                                    <a href="#">
+                                                                        <i class="fa fa-fw ti-control-skip-forward"></i> <span class="mm-text">Level 5</span>
+                                                                    </a>
+                                                                </li>
+                                                                <li>
+                                                                    <a href="#">
+                                                                        <i class="fa fa-fw ti-control-skip-forward"></i> <span class="mm-text">Level 5</span>
+                                                                    </a>
+                                                                </li>
+                                                                <li>
+                                                                    <a href="#">
+                                                                        <i class="fa fa-fw ti-control-skip-forward"></i> <span class="mm-text">Level 5</span>
+                                                                    </a>
+                                                                </li>
+                                                            </ul>
+                                                        </li>
+                                                    </ul>
+                                                </li>
+                                                <li>
+                                                    <a href="#">
+                                                        <i class="fa fa-fw ti-control-skip-forward"></i> <span class="mm-text">Level 4</span>
+                                                    </a>
+                                                </li>
+                                            </ul>
+                                        </li>
+                                        <li>
+                                            <a href="#">
+                                                <i class="fa fa-fw ti-control-skip-forward"></i> <span class="mm-text">Level 2</span>
+                                                <span class="fa arrow"></span>
+                                            </a>
+                                        </li>
+                                    </ul>
+                                </li>
+                                <li>
+                                    <a href="#">
+                                        <i class="fa fa-fw ti-control-skip-forward"></i><span class="mm-text"> Level 1</span>
+                                    </a>
+                                </li>
+                                <li>
+                                    <a href="#">
+                                        <i class="fa fa-fw ti-control-skip-forward"></i><span class="mm-text"> Level 1</span>
+                                        <span class="fa arrow"></span>
+                                    </a>
+                                    <ul class="sub-menu sub-submenu">
+                                        <li>
+                                            <a href="#">
+                                                <i class="fa fa-fw ti-control-skip-forward"></i> <span class="mm-text">Level 2</span>
+                                                <span class="fa arrow"></span>
+                                            </a>
+                                        </li>
+                                        <li>
+                                            <a href="#">
+                                                <i class="fa fa-fw ti-control-skip-forward"></i> <span class="mm-text">Level 2</span>
+                                                <span class="fa arrow"></span>
+                                            </a>
+                                        </li>
+                                        <li>
+                                            <a href="#">
+                                                <i class="fa fa-fw ti-control-skip-forward"></i> <span class="mm-text">Level 2</span>
+                                                <span class="fa arrow"></span>
+                                            </a>
+                                        </li>
+                                    </ul>
+                                </li>
+                            </ul>
+                        </li>
+                    </ul>
+                    <!-- / .navigation -->
+                </div>
+                <!-- menu -->
+            </section>
+            <!-- /.sidebar -->
+        </aside>
+        <aside class="right-side">
+            <!-- Content Header (Page header) -->
+            <section class="content-header">
+                <!--section starts-->
+                <h1>
+                Mini Sidebar
+                </h1>
+                <ol class="breadcrumb">
+                    <li>
+                        <a href="index.html">
+                            <i class="fa fa-fw ti-home"></i> Dashboard
+                        </a>
+                    </li>
+                    <li>
+                        <a href="#">Layouts</a>
+                    </li>
+                    <li class="active">
+                        <a href="menubarfold.html">
+                        Mini Sidebar
+                    </a>
+                    </li>
+                </ol>
+            </section>
+            <section class="content">
+                <div class="outer">
+                    <pre>code</pre>
+                </div>
+                <div class="col-lg-12">
+                    <p class="text-justify">
+                        &emsp; &emsp; Sed sed blandit urna. Proin ac sem nisl. Mauris risus orci, tristique eget velit at, congue euismod lacus. Curabitur id purus sit amet urna rutrum bibendum ac at quam. In hendrerit enim eu turpis molestie, et euismod tellus viverra. Suspendisse molestie at leo sit amet volutpat. Integer augue libero, scelerisque vitae luctus ac, consequat et arcu. Nullam malesuada turpis eu ullamcorper tincidunt. Integer aliquam felis eget neque facilisis ornare.
+                    </p>
+                    <p>
+                        &emsp; &emsp; Integer pharetra vitae dolor vel elementum. In nisl risus, dignissim non fermentum ac, pretium sit amet dui. Phasellus fringilla orci sapien, vel lacinia mi dapibus ut. Donec euismod congue nulla, in porttitor sapien. Pellentesque facilisis luctus adipiscing.
+                    </p>
+                    <p class="text-justify">
+                        &emsp; &emsp; Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam massa eros, dictum ut imperdiet eget, laoreet placerat orci. Aliquam eget neque neque. Donec dictum, enim convallis gravida fringilla, velit sem condimentum nunc, in pretium libero est sit amet elit. Nam ut arcu ac eros commodo rutrum ac nec purus. Fusce sodales pulvinar odio, vulputate fringilla ligula bibendum sit amet. Duis risus neque, molestie tincidunt odio vel, sodales vulputate mauris. Sed adipiscing justo tristique enim pharetra, nec ultricies metus sagittis.Duis varius id massa ut pellentesque.
+                    </p>
+                    <p> &emsp; &emsp; Nulla commodo erat eu mi aliquet aliquam. Vivamus commodo massa et nunc ullamcorper, vel pharetra purus consequat. Suspendisse a neque quis nibh dictum posuere ac et enim. Aliquam sit amet accumsan erat. Nullam euismod elit tellus, vel luctus enim luctus feugiat. Vestibulum quis placerat ipsum, porta vehicula massa. Etiam nec risus ac lacus gravida tincidunt. Vivamus eu ante vehicula, aliquam nisl et, suscipit ipsum. Vivamus velit nulla, tincidunt ac risus et, congue lobortis mauris. In condimentum consectetur purus, vel adipiscing felis sollicitudin vitae. Phasellus luctus, ligula eu tempor ullamcorper, lectus elit posuere augue, eget tempus lacus nibh a purus. Ut risus velit, adipiscing eu leo quis, vestibulum porttitor nunc. Sed sed blandit urna. Proin ac sem nisl.
+                    </p>
+                    <p> &emsp; &emsp; Mauris risus orci, tristique eget velit at, congue euismod lacus. Curabitur id purus sit amet urna rutrum bibendum ac at quam. In hendrerit enim eu turpis molestie, et euismod tellus viverra. Suspendisse molestie at leo sit amet volutpat. et euismod tellus viverra.
+                    </p>
+                    <div class="clearfix"></div>
+                    <p class="text-justify">
+                        Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam massa eros, dictum ut imperdiet eget, laoreet placerat orci. Aliquam eget neque neque. Donec dictum, enim convallis gravida fringilla, velit sem condimentum nunc, in pretium libero est sit amet elit. Nam ut arcu ac eros commodo rutrum ac nec purus. Fusce sodales pulvinar odio, vulputate fringilla ligula bibendum sit amet. Duis risus neque, molestie tincidunt odio vel, sodales vulputate mauris. Sed adipiscing justo tristique enim pharetra, nec ultricies metus sagittis. Duis varius id massa ut pellentesque. Nulla commodo erat eu mi aliquet aliquam. Vivamus commodo massa et nunc ullamcorper, vel pharetra purus consequat.
+                    </p>
+                    <div class="clearfix"></div>
+                </div>
+                <!--rightside bar -->
+                <div id="right">
+                    <div id="right-slim">
+                        <div class="rightsidebar-right">
+                            <div class="rightsidebar-right-content">
+                                <div class="panel-tabs">
+                                    <ul class="nav nav-tabs nav-float" role="tablist">
+                                        <li class="active text-center">
+                                            <a href="#r_tab1" role="tab" data-toggle="tab"><i
+                                                class="fa fa-fw ti-comments"></i></a>
+                                        </li>
+                                        <li class="text-center">
+                                            <a href="#r_tab2" role="tab" data-toggle="tab"><i class="fa fa-fw ti-bell"></i></a>
+                                        </li>
+                                        <li class="text-center">
+                                            <a href="#r_tab3" role="tab" data-toggle="tab"><i
+                                                class="fa fa-fw ti-settings"></i></a>
+                                        </li>
+                                    </ul>
+                                </div>
+                                <div class="tab-content">
+                                    <div class="tab-pane fade in active" id="r_tab1">
+                                        <div id="slim_t1">
+                                            <h5 class="rightsidebar-right-heading text-uppercase text-xs">
+                                            <i class="menu-icon  fa fa-fw ti-user"></i>
+                                            Contacts
+                                        </h5>
+                                            <ul class="list-unstyled margin-none">
+                                                <li class="rightsidebar-contact-wrapper">
+                                                    <a class="rightsidebar-contact" href="#">
+                                                        <img src="img/authors/avatar6.jpg" class="img-circle pull-right" alt="avatar-image">
+                                                        <i class="fa fa-circle text-xs text-primary"></i> Annette
+                                                    </a>
+                                                </li>
+                                                <li class="rightsidebar-contact-wrapper">
+                                                    <a class="rightsidebar-contact" href="#">
+                                                        <img src="img/authors/avatar.jpg" class="img-circle pull-right" alt="avatar-image">
+                                                        <i class="fa fa-circle text-xs text-primary"></i> Jordan
+                                                    </a>
+                                                </li>
+                                                <li class="rightsidebar-contact-wrapper">
+                                                    <a class="rightsidebar-contact" href="#">
+                                                        <img src="img/authors/avatar2.jpg" class="img-circle pull-right" alt="avatar-image">
+                                                        <i class="fa fa-circle text-xs text-primary"></i> Stewart
+                                                    </a>
+                                                </li>
+                                                <li class="rightsidebar-contact-wrapper">
+                                                    <a class="rightsidebar-contact" href="#">
+                                                        <img src="img/authors/avatar3.jpg" class="img-circle pull-right" alt="avatar-image">
+                                                        <i class="fa fa-circle text-xs text-warning"></i> Alfred
+                                                    </a>
+                                                </li>
+                                                <li class="rightsidebar-contact-wrapper">
+                                                    <a class="rightsidebar-contact" href="#">
+                                                        <img src="img/authors/avatar4.jpg" class="img-circle pull-right" alt="avatar-image">
+                                                        <i class="fa fa-circle text-xs text-danger"></i> Eileen
+                                                    </a>
+                                                </li>
+                                                <li class="rightsidebar-contact-wrapper">
+                                                    <a class="rightsidebar-contact" href="#">
+                                                        <img src="img/authors/avatar5.jpg" class="img-circle pull-right" alt="avatar-image">
+                                                        <i class="fa fa-circle text-xs text-muted"></i> Robert
+                                                    </a>
+                                                </li>
+                                                <li class="rightsidebar-contact-wrapper">
+                                                    <a class="rightsidebar-contact" href="#">
+                                                        <img src="img/authors/avatar7.jpg" class="img-circle pull-right" alt="avatar-image">
+                                                        <i class="fa fa-circle text-xs text-muted"></i> Cassandra
+                                                    </a>
+                                                </li>
+                                            </ul>
+                                            <h5 class="rightsidebar-right-heading text-uppercase text-xs">
+                                            <i class="fa fa-fw ti-export"></i>
+                                            Recent Updates
+                                        </h5>
+                                            <div>
+                                                <ul class="list-unstyled">
+                                                    <li class="rightsidebar-notification">
+                                                        <a href="#">
+                                                            <i class="fa ti-comments-smiley fa-fw text-primary"></i> New Comment
+                                                        </a>
+                                                    </li>
+                                                    <li class="rightsidebar-notification">
+                                                        <a href="#">
+                                                            <i class="fa ti-twitter-alt fa-fw text-success"></i> 3 New Followers
+                                                        </a>
+                                                    </li>
+                                                    <li class="rightsidebar-notification">
+                                                        <a href="#">
+                                                            <i class="fa ti-email fa-fw text-info"></i> Message Sent
+                                                        </a>
+                                                    </li>
+                                                    <li class="rightsidebar-notification">
+                                                        <a href="#">
+                                                            <i class="fa ti-write fa-fw text-warning"></i> New Task
+                                                        </a>
+                                                    </li>
+                                                    <li class="rightsidebar-notification">
+                                                        <a href="#">
+                                                            <i class="fa ti-export fa-fw text-danger"></i> Server Rebooted
+                                                        </a>
+                                                    </li>
+                                                    <li class="rightsidebar-notification">
+                                                        <a href="#">
+                                                            <i class="fa ti-info-alt fa-fw text-primary"></i> Server Not Responding
+                                                        </a>
+                                                    </li>
+                                                    <li class="rightsidebar-notification">
+                                                        <a href="#">
+                                                            <i class="fa ti-shopping-cart fa-fw text-success"></i> New Order Placed
+                                                        </a>
+                                                    </li>
+                                                    <li class="rightsidebar-notification">
+                                                        <a href="#">
+                                                            <i class="fa ti-money fa-fw text-info"></i> Payment Received
+                                                        </a>
+                                                    </li>
+                                                </ul>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="tab-pane fade" id="r_tab2">
+                                        <div id="slim_t2">
+                                            <h5 class="rightsidebar-right-heading text-uppercase text-xs">
+                                            <i class="fa fa-fw ti-bell"></i>
+                                            Notifications
+                                        </h5>
+                                            <ul class="list-unstyled m-t-15 notifications">
+                                                <li>
+                                                    <a href="" class="message icon-not striped-col">
+                                                        <img class="message-image img-circle" src="img/authors/avatar3.jpg" alt="avatar-image">
+                                                        <div class="message-body">
+                                                            <strong>John Doe</strong>
+                                                            <br> 5 members joined today
+                                                            <br>
+                                                            <small class="noti-date">Just now</small>
+                                                        </div>
+                                                    </a>
+                                                </li>
+                                                <li>
+                                                    <a href="" class="message icon-not">
+                                                        <img class="message-image img-circle" src="img/authors/avatar.jpg" alt="avatar-image">
+                                                        <div class="message-body">
+                                                            <strong>Tony</strong>
+                                                            <br> likes a photo of you
+                                                            <br>
+                                                            <small class="noti-date">5 min</small>
+                                                        </div>
+                                                    </a>
+                                                </li>
+                                                <li>
+                                                    <a href="" class="message icon-not striped-col">
+                                                        <img class="message-image img-circle" src="img/authors/avatar6.jpg" alt="avatar-image">
+                                                        <div class="message-body">
+                                                            <strong>John</strong>
+                                                            <br> Dont forgot to call...
+                                                            <br>
+                                                            <small class="noti-date">11 min</small>
+                                                        </div>
+                                                    </a>
+                                                </li>
+                                                <li>
+                                                    <a href="" class="message icon-not">
+                                                        <img class="message-image img-circle" src="img/authors/avatar1.jpg" alt="avatar-image">
+                                                        <div class="message-body">
+                                                            <strong>Jenny Kerry</strong>
+                                                            <br> Done with it...
+                                                            <br>
+                                                            <small class="noti-date">1 Hour</small>
+                                                        </div>
+                                                    </a>
+                                                </li>
+                                                <li>
+                                                    <a href="" class="message icon-not striped-col">
+                                                        <img class="message-image img-circle" src="img/authors/avatar7.jpg" alt="avatar-image">
+                                                        <div class="message-body">
+                                                            <strong>Ernest Kerry</strong>
+                                                            <br> 2 members joined today
+                                                            <br>
+                                                            <small class="noti-date">3 Days</small>
+                                                        </div>
+                                                    </a>
+                                                </li>
+                                                <li class="text-right noti-footer"><a href="#">View All Notifications <i
+                                                    class="ti-arrow-right"></i></a></li>
+                                            </ul>
+                                            <h5 class="rightsidebar-right-heading text-uppercase text-xs">
+                                            <i class="fa fa-fw ti-check-box"></i>
+                                            Tasks
+                                        </h5>
+                                            <ul class="list-unstyled m-t-15">
+                                                <li>
+                                                    <div>
+                                                        <p>
+                                                            <span>Button Design</span>
+                                                            <small class="pull-right text-muted">40%</small>
+                                                        </p>
+                                                        <div class="progress progress-xs progress-striped active">
+                                                            <div class="progress-bar progress-bar-success" role="progressbar" aria-valuenow="40" aria-valuemin="0" aria-valuemax="100" style="width: 40%">
+                                                                <span class="sr-only">40% Complete (success)</span>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                </li>
+                                                <li>
+                                                    <div>
+                                                        <p>
+                                                            <span>Theme Creation</span>
+                                                            <small class="pull-right text-muted">20%</small>
+                                                        </p>
+                                                        <div class="progress progress-xs progress-striped active">
+                                                            <div class="progress-bar progress-bar-info" role="progressbar" aria-valuenow="20" aria-valuemin="0" aria-valuemax="100" style="width: 20%">
+                                                                <span class="sr-only">20% Complete</span>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                </li>
+                                                <li>
+                                                    <div>
+                                                        <p>
+                                                            <span>XYZ Task To Do</span>
+                                                            <small class="pull-right text-muted">60%</small>
+                                                        </p>
+                                                        <div class="progress progress-xs progress-striped active">
+                                                            <div class="progress-bar progress-bar-warning" role="progressbar" aria-valuenow="60" aria-valuemin="0" aria-valuemax="100" style="width: 60%">
+                                                                <span class="sr-only">60% Complete (warning)</span>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                </li>
+                                                <li>
+                                                    <div>
+                                                        <p>
+                                                            <span>Transitions Creation</span>
+                                                            <small class="pull-right text-muted">80%</small>
+                                                        </p>
+                                                        <div class="progress progress-xs progress-striped active">
+                                                            <div class="progress-bar progress-bar-danger" role="progressbar" aria-valuenow="80" aria-valuemin="0" aria-valuemax="100" style="width: 80%">
+                                                                <span class="sr-only">80% Complete (danger)</span>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                </li>
+                                                <li class="text-right"><a href="#">View All Tasks <i
+                                                    class="ti-arrow-right"></i></a>
+                                                </li>
+                                            </ul>
+                                        </div>
+                                    </div>
+                                    <div class="tab-pane fade" id="r_tab3">
+                                        <div id="slim_t3">
+                                            <h5 class="rightsidebar-right-heading text-uppercase gen-sett-m-t text-xs">
+                                            <i class="fa fa-fw ti-settings"></i>
+                                            General
+                                        </h5>
+                                            <ul class="list-unstyled settings-list m-t-10">
+                                                <li>
+                                                    <label for="status">Available</label>
+                                                    <span class="pull-right">
+                                            <input type="checkbox" id="status" name="my-checkbox" checked>
+                                        </span>
+                                                </li>
+                                                <li>
+                                                    <label for="email-auth">Login with Email</label>
+                                                    <span class="pull-right">
+                                            <input type="checkbox" id="email-auth" name="my-checkbox">
+                                        </span>
+                                                </li>
+                                                <li>
+                                                    <label for="update">Auto Update</label>
+                                                    <span class="pull-right">
+                                            <input type="checkbox" id="update" name="my-checkbox">
+                                        </span>
+                                                </li>
+                                            </ul>
+                                            <h5 class="rightsidebar-right-heading text-uppercase text-xs">
+                                            <i class="fa fa-fw ti-volume"></i>
+                                            Sound & Notification
+                                        </h5>
+                                            <ul class="list-unstyled settings-list m-t-10">
+                                                <li>
+                                                    <label for="chat-sound">Chat Sound</label>
+                                                    <span class="pull-right">
+                                            <input type="checkbox" id="chat-sound" name="my-checkbox" checked>
+                                        </span>
+                                                </li>
+                                                <li>
+                                                    <label for="noti-sound">Notification Sound</label>
+                                                    <span class="pull-right">
+                                            <input type="checkbox" id="noti-sound" name="my-checkbox">
+                                        </span>
+                                                </li>
+                                                <li>
+                                                    <label for="remain">Remainder </label>
+                                                    <span class="pull-right">
+                                            <input type="checkbox" id="remain" name="my-checkbox" checked>
+                                        </span>
+                                                </li>
+                                                <li>
+                                                    <label for="vol">Volume</label>
+                                                    <input type="range" id="vol" min="0" max="100" value="15">
+                                                </li>
+                                            </ul>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <!-- /.inner -->
+                <!-- /#right -->
+                <div class="background-overlay"></div>
+            </section>
+            <!-- /.content -->
+        </aside>
+        <!-- /.right-side -->
+    </div>
+    <!-- global js -->
+    <script src="js/app.js" type="text/javascript"></script>
+    <!-- end of global js -->
+    <!-- begining of page level js -->
+    <script type="text/javascript" src="js/custom_js/mini_sidebar.js"></script>
+    <!-- end of page level js -->
+</body>
+
+</html>
