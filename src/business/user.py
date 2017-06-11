@@ -12,8 +12,11 @@ class UserBusiness(object):
     @classmethod
     def _query(cls):
         return User.query\
-            .outerjoin(UserBindRole, User.id == UserBindRole.user_id)\
-            .outerjoin(Role, Role.id == UserBindRole.role_id)
+            .outerjoin(Role, Role.id == User.role_id)\
+            .add_columns(
+
+            )
+
 
     @classmethod
     def login(cls, username, password):

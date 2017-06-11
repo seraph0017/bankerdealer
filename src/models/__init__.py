@@ -11,4 +11,3 @@ from shareholder import ShareHolder
 
 
 
-from userbindrole import UserBindRole

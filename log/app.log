@@ -1,0 +1,543 @@
+[2017-06-11 14:06:07,054](WARNING)werkzeug :  * Debugger is active!
+[2017-06-11 14:06:07,086](INFO)werkzeug :  * Debugger PIN: 311-760-053
+[2017-06-11 14:06:17,194](INFO)werkzeug :  * Detected change in '/Users/max/Projects/bankerdealer/config/settings.py', reloading
+[2017-06-11 14:06:17,992](WARNING)werkzeug :  * Debugger is active!
+[2017-06-11 14:06:18,021](INFO)werkzeug :  * Debugger PIN: 311-760-053
+[2017-06-11 14:06:25,109](INFO)werkzeug :  * Detected change in '/Users/max/Projects/bankerdealer/src/misc/auth.py', reloading
+[2017-06-11 14:06:25,976](WARNING)werkzeug :  * Debugger is active!
+[2017-06-11 14:06:26,007](INFO)werkzeug :  * Debugger PIN: 311-760-053
+[2017-06-11 14:06:36,116](INFO)werkzeug :  * Detected change in '/Users/max/Projects/bankerdealer/src/misc/auth.py', reloading
+[2017-06-11 14:06:36,860](WARNING)werkzeug :  * Debugger is active!
+[2017-06-11 14:06:36,884](INFO)werkzeug :  * Debugger PIN: 311-760-053
+[2017-06-11 14:06:59,087](INFO)werkzeug :  * Detected change in '/Users/max/Projects/bankerdealer/manage.py', reloading
+[2017-06-11 14:06:59,989](WARNING)werkzeug :  * Debugger is active!
+[2017-06-11 14:07:00,015](INFO)werkzeug :  * Debugger PIN: 311-760-053
+[2017-06-11 14:07:10,998](INFO)werkzeug :  * Running on http://0.0.0.0:5001/ (Press CTRL+C to quit)
+[2017-06-11 14:07:11,009](INFO)werkzeug :  * Restarting with stat
+[2017-06-11 14:07:11,738](WARNING)werkzeug :  * Debugger is active!
+[2017-06-11 14:07:11,763](INFO)werkzeug :  * Debugger PIN: 311-760-053
+[2017-06-11 14:07:21,318](INFO)werkzeug : 127.0.0.1 - - [11/Jun/2017 14:07:21] "GET /enterprise/ HTTP/1.1" 403 -
+[2017-06-11 14:07:26,192](INFO)werkzeug : 127.0.0.1 - - [11/Jun/2017 14:07:26] "GET /enterprise/login HTTP/1.1" 200 -
+[2017-06-11 14:07:26,226](INFO)werkzeug : 127.0.0.1 - - [11/Jun/2017 14:07:26] "GET /static/css/bootstrap.min.css HTTP/1.1" 200 -
+[2017-06-11 14:07:26,233](INFO)werkzeug : 127.0.0.1 - - [11/Jun/2017 14:07:26] "GET /static/vendors/themify/css/themify-icons.css HTTP/1.1" 200 -
+[2017-06-11 14:07:26,237](INFO)werkzeug : 127.0.0.1 - - [11/Jun/2017 14:07:26] "GET /static/vendors/iCheck/css/all.css HTTP/1.1" 200 -
+[2017-06-11 14:07:26,240](INFO)werkzeug : 127.0.0.1 - - [11/Jun/2017 14:07:26] "GET /static/vendors/bootstrapvalidator/css/bootstrapValidator.min.css HTTP/1.1" 200 -
+[2017-06-11 14:07:26,243](INFO)werkzeug : 127.0.0.1 - - [11/Jun/2017 14:07:26] "GET /static/css/login.css HTTP/1.1" 200 -
+[2017-06-11 14:07:26,247](INFO)werkzeug : 127.0.0.1 - - [11/Jun/2017 14:07:26] "GET /static/js/jquery.min.js HTTP/1.1" 200 -
+[2017-06-11 14:07:26,254](INFO)werkzeug : 127.0.0.1 - - [11/Jun/2017 14:07:26] "GET /static/js/bootstrap.min.js HTTP/1.1" 200 -
+[2017-06-11 14:07:26,263](INFO)werkzeug : 127.0.0.1 - - [11/Jun/2017 14:07:26] "GET /static/vendors/iCheck/js/icheck.js HTTP/1.1" 200 -
+[2017-06-11 14:07:26,269](INFO)werkzeug : 127.0.0.1 - - [11/Jun/2017 14:07:26] "GET /static/vendors/bootstrapvalidator/js/bootstrapValidator.min.js HTTP/1.1" 200 -
+[2017-06-11 14:07:26,277](INFO)werkzeug : 127.0.0.1 - - [11/Jun/2017 14:07:26] "GET /static/js/custom_js/login.js HTTP/1.1" 200 -
+[2017-06-11 14:07:26,283](INFO)werkzeug : 127.0.0.1 - - [11/Jun/2017 14:07:26] "GET /static/img/loader.gif HTTP/1.1" 200 -
+[2017-06-11 14:07:26,349](INFO)werkzeug : 127.0.0.1 - - [11/Jun/2017 14:07:26] "GET /static/vendors/iCheck/css/minimal/_all.css HTTP/1.1" 200 -
+[2017-06-11 14:07:26,353](INFO)werkzeug : 127.0.0.1 - - [11/Jun/2017 14:07:26] "GET /static/vendors/iCheck/css/square/_all.css HTTP/1.1" 200 -
+[2017-06-11 14:07:26,358](INFO)werkzeug : 127.0.0.1 - - [11/Jun/2017 14:07:26] "GET /static/vendors/iCheck/css/flat/_all.css HTTP/1.1" 200 -
+[2017-06-11 14:07:26,362](INFO)werkzeug : 127.0.0.1 - - [11/Jun/2017 14:07:26] "GET /static/vendors/iCheck/css/line/_all.css HTTP/1.1" 200 -
+[2017-06-11 14:07:26,365](INFO)werkzeug : 127.0.0.1 - - [11/Jun/2017 14:07:26] "GET /static/vendors/iCheck/css/polaris/polaris.css HTTP/1.1" 200 -
+[2017-06-11 14:07:26,367](INFO)werkzeug : 127.0.0.1 - - [11/Jun/2017 14:07:26] "GET /static/vendors/iCheck/css/futurico/futurico.css HTTP/1.1" 200 -
+[2017-06-11 14:07:35,178](INFO)werkzeug : 127.0.0.1 - - [11/Jun/2017 14:07:35] "POST /enterprise/login HTTP/1.1" 302 -
+[2017-06-11 14:07:35,185](INFO)werkzeug : 127.0.0.1 - - [11/Jun/2017 14:07:35] "GET /enterprise/ HTTP/1.1" 200 -
+[2017-06-11 14:07:38,515](INFO)werkzeug : 127.0.0.1 - - [11/Jun/2017 14:07:38] "GET /enterprise/ HTTP/1.1" 200 -
+[2017-06-11 14:07:50,775](INFO)werkzeug : 127.0.0.1 - - [11/Jun/2017 14:07:50] "GET /enterprise/login HTTP/1.1" 200 -
+[2017-06-11 14:07:50,797](INFO)werkzeug : 127.0.0.1 - - [11/Jun/2017 14:07:50] "GET /static/css/bootstrap.min.css HTTP/1.1" 200 -
+[2017-06-11 14:07:50,800](INFO)werkzeug : 127.0.0.1 - - [11/Jun/2017 14:07:50] "GET /static/vendors/themify/css/themify-icons.css HTTP/1.1" 200 -
+[2017-06-11 14:07:50,802](INFO)werkzeug : 127.0.0.1 - - [11/Jun/2017 14:07:50] "GET /static/vendors/iCheck/css/all.css HTTP/1.1" 200 -
+[2017-06-11 14:07:50,805](INFO)werkzeug : 127.0.0.1 - - [11/Jun/2017 14:07:50] "GET /static/vendors/bootstrapvalidator/css/bootstrapValidator.min.css HTTP/1.1" 200 -
+[2017-06-11 14:07:50,809](INFO)werkzeug : 127.0.0.1 - - [11/Jun/2017 14:07:50] "GET /static/css/login.css HTTP/1.1" 200 -
+[2017-06-11 14:07:50,814](INFO)werkzeug : 127.0.0.1 - - [11/Jun/2017 14:07:50] "GET /static/js/jquery.min.js HTTP/1.1" 200 -
+[2017-06-11 14:07:50,820](INFO)werkzeug : 127.0.0.1 - - [11/Jun/2017 14:07:50] "GET /static/js/bootstrap.min.js HTTP/1.1" 200 -
+[2017-06-11 14:07:50,826](INFO)werkzeug : 127.0.0.1 - - [11/Jun/2017 14:07:50] "GET /static/vendors/iCheck/js/icheck.js HTTP/1.1" 200 -
+[2017-06-11 14:07:50,833](INFO)werkzeug : 127.0.0.1 - - [11/Jun/2017 14:07:50] "GET /static/vendors/bootstrapvalidator/js/bootstrapValidator.min.js HTTP/1.1" 200 -
+[2017-06-11 14:07:50,843](INFO)werkzeug : 127.0.0.1 - - [11/Jun/2017 14:07:50] "GET /static/js/custom_js/login.js HTTP/1.1" 200 -
+[2017-06-11 14:07:50,849](INFO)werkzeug : 127.0.0.1 - - [11/Jun/2017 14:07:50] "GET /static/img/loader.gif HTTP/1.1" 200 -
+[2017-06-11 14:07:50,933](INFO)werkzeug : 127.0.0.1 - - [11/Jun/2017 14:07:50] "GET /static/vendors/iCheck/css/minimal/_all.css HTTP/1.1" 200 -
+[2017-06-11 14:07:50,935](INFO)werkzeug : 127.0.0.1 - - [11/Jun/2017 14:07:50] "GET /static/vendors/iCheck/css/square/_all.css HTTP/1.1" 200 -
+[2017-06-11 14:07:50,938](INFO)werkzeug : 127.0.0.1 - - [11/Jun/2017 14:07:50] "GET /static/vendors/iCheck/css/flat/_all.css HTTP/1.1" 200 -
+[2017-06-11 14:07:50,940](INFO)werkzeug : 127.0.0.1 - - [11/Jun/2017 14:07:50] "GET /static/vendors/iCheck/css/line/_all.css HTTP/1.1" 200 -
+[2017-06-11 14:07:50,942](INFO)werkzeug : 127.0.0.1 - - [11/Jun/2017 14:07:50] "GET /static/vendors/iCheck/css/polaris/polaris.css HTTP/1.1" 200 -
+[2017-06-11 14:07:50,945](INFO)werkzeug : 127.0.0.1 - - [11/Jun/2017 14:07:50] "GET /static/vendors/iCheck/css/futurico/futurico.css HTTP/1.1" 200 -
+[2017-06-11 14:09:09,969](INFO)werkzeug : 127.0.0.1 - - [11/Jun/2017 14:09:09] "GET /enterprise/login HTTP/1.1" 200 -
+[2017-06-11 14:09:16,106](INFO)werkzeug : 127.0.0.1 - - [11/Jun/2017 14:09:16] "POST /enterprise/login HTTP/1.1" 302 -
+[2017-06-11 14:09:16,114](INFO)werkzeug : 127.0.0.1 - - [11/Jun/2017 14:09:16] "GET /enterprise/ HTTP/1.1" 200 -
+[2017-06-11 14:09:42,256](INFO)werkzeug :  * Detected change in '/Users/max/Projects/bankerdealer/src/misc/auth.py', reloading
+[2017-06-11 14:09:42,299](INFO)werkzeug :  * Restarting with stat
+[2017-06-11 14:09:43,594](WARNING)werkzeug :  * Debugger is active!
+[2017-06-11 14:09:43,654](INFO)werkzeug :  * Debugger PIN: 311-760-053
+[2017-06-11 14:09:50,784](INFO)werkzeug :  * Detected change in '/Users/max/Projects/bankerdealer/src/misc/auth.py', reloading
+[2017-06-11 14:09:50,828](INFO)werkzeug :  * Restarting with stat
+[2017-06-11 14:09:51,659](WARNING)werkzeug :  * Debugger is active!
+[2017-06-11 14:09:51,683](INFO)werkzeug :  * Debugger PIN: 311-760-053
+[2017-06-11 14:09:52,716](INFO)werkzeug :  * Detected change in '/Users/max/Projects/bankerdealer/src/misc/auth.py', reloading
+[2017-06-11 14:09:52,759](INFO)werkzeug :  * Restarting with stat
+[2017-06-11 14:09:53,603](WARNING)werkzeug :  * Debugger is active!
+[2017-06-11 14:09:53,632](INFO)werkzeug :  * Debugger PIN: 311-760-053
+[2017-06-11 14:10:37,087](INFO)werkzeug :  * Detected change in '/Users/max/Projects/bankerdealer/src/misc/auth.py', reloading
+[2017-06-11 14:10:37,131](INFO)werkzeug :  * Restarting with stat
+[2017-06-11 14:10:38,121](WARNING)werkzeug :  * Debugger is active!
+[2017-06-11 14:10:38,148](INFO)werkzeug :  * Debugger PIN: 311-760-053
+[2017-06-11 14:10:47,273](INFO)werkzeug :  * Detected change in '/Users/max/Projects/bankerdealer/src/misc/auth.py', reloading
+[2017-06-11 14:10:47,316](INFO)werkzeug :  * Restarting with stat
+[2017-06-11 14:10:48,259](WARNING)werkzeug :  * Debugger is active!
+[2017-06-11 14:10:48,296](INFO)werkzeug :  * Debugger PIN: 311-760-053
+[2017-06-11 14:10:53,827](INFO)werkzeug : 127.0.0.1 - - [11/Jun/2017 14:10:53] "GET /enterprise/ HTTP/1.1" 200 -
+[2017-06-11 14:10:59,170](INFO)werkzeug : 127.0.0.1 - - [11/Jun/2017 14:10:59] "GET /banker/ HTTP/1.1" 404 -
+[2017-06-11 14:12:15,623](INFO)werkzeug : 127.0.0.1 - - [11/Jun/2017 14:12:15] "POST /enterprise/login HTTP/1.1" 500 -
+[2017-06-11 14:12:15,645](INFO)werkzeug : 127.0.0.1 - - [11/Jun/2017 14:12:15] "GET /enterprise/login?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1" 200 -
+[2017-06-11 14:12:15,647](INFO)werkzeug : 127.0.0.1 - - [11/Jun/2017 14:12:15] "GET /enterprise/login?__debugger__=yes&cmd=resource&f=jquery.js HTTP/1.1" 200 -
+[2017-06-11 14:12:15,649](INFO)werkzeug : 127.0.0.1 - - [11/Jun/2017 14:12:15] "GET /enterprise/login?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1" 200 -
+[2017-06-11 14:12:15,664](INFO)werkzeug : 127.0.0.1 - - [11/Jun/2017 14:12:15] "GET /enterprise/login?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1" 200 -
+[2017-06-11 14:12:15,687](INFO)werkzeug : 127.0.0.1 - - [11/Jun/2017 14:12:15] "GET /enterprise/login?__debugger__=yes&cmd=resource&f=ubuntu.ttf HTTP/1.1" 200 -
+[2017-06-11 14:12:15,850](INFO)werkzeug : 127.0.0.1 - - [11/Jun/2017 14:12:15] "GET /enterprise/login?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1" 200 -
+[2017-06-11 14:12:22,641](INFO)werkzeug : 127.0.0.1 - - [11/Jun/2017 14:12:22] "GET /enterprise/login HTTP/1.1" 200 -
+[2017-06-11 14:12:26,227](INFO)werkzeug : 127.0.0.1 - - [11/Jun/2017 14:12:26] "GET /enterprise/login HTTP/1.1" 200 -
+[2017-06-11 14:12:30,813](INFO)werkzeug : 127.0.0.1 - - [11/Jun/2017 14:12:30] "GET / HTTP/1.1" 404 -
+[2017-06-11 14:12:35,223](INFO)werkzeug : 127.0.0.1 - - [11/Jun/2017 14:12:35] "GET /enterprise/login HTTP/1.1" 200 -
+[2017-06-11 14:12:37,433](INFO)werkzeug : 127.0.0.1 - - [11/Jun/2017 14:12:37] "GET /enterprise/ HTTP/1.1" 500 -
+[2017-06-11 14:12:37,441](INFO)werkzeug : 127.0.0.1 - - [11/Jun/2017 14:12:37] "GET /enterprise/?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1" 200 -
+[2017-06-11 14:12:37,443](INFO)werkzeug : 127.0.0.1 - - [11/Jun/2017 14:12:37] "GET /enterprise/?__debugger__=yes&cmd=resource&f=jquery.js HTTP/1.1" 200 -
+[2017-06-11 14:12:37,445](INFO)werkzeug : 127.0.0.1 - - [11/Jun/2017 14:12:37] "GET /enterprise/?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1" 200 -
+[2017-06-11 14:12:37,470](INFO)werkzeug : 127.0.0.1 - - [11/Jun/2017 14:12:37] "GET /enterprise/?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1" 200 -
+[2017-06-11 14:12:37,514](INFO)werkzeug : 127.0.0.1 - - [11/Jun/2017 14:12:37] "GET /enterprise/?__debugger__=yes&cmd=resource&f=ubuntu.ttf HTTP/1.1" 200 -
+[2017-06-11 14:12:37,561](INFO)werkzeug : 127.0.0.1 - - [11/Jun/2017 14:12:37] "GET /enterprise/?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1" 200 -
+[2017-06-11 14:12:48,461](INFO)werkzeug : 127.0.0.1 - - [11/Jun/2017 14:12:48] "GET /enterprise/ HTTP/1.1" 200 -
+[2017-06-11 14:14:32,603](INFO)werkzeug :  * Detected change in '/Users/max/Projects/bankerdealer/src/views/enterprise.py', reloading
+[2017-06-11 14:14:32,647](INFO)werkzeug :  * Restarting with stat
+[2017-06-11 14:14:33,705](WARNING)werkzeug :  * Debugger is active!
+[2017-06-11 14:14:33,742](INFO)werkzeug :  * Debugger PIN: 311-760-053
+[2017-06-11 14:14:54,999](INFO)werkzeug :  * Detected change in '/Users/max/Projects/bankerdealer/src/views/enterprise.py', reloading
+[2017-06-11 14:14:55,046](INFO)werkzeug :  * Restarting with stat
+[2017-06-11 14:14:56,739](WARNING)werkzeug :  * Debugger is active!
+[2017-06-11 14:14:56,780](INFO)werkzeug :  * Debugger PIN: 311-760-053
+[2017-06-11 14:15:38,255](INFO)werkzeug :  * Detected change in '/Users/max/Projects/bankerdealer/src/views/enterprise.py', reloading
+[2017-06-11 14:15:38,302](INFO)werkzeug :  * Restarting with stat
+[2017-06-11 14:15:39,710](WARNING)werkzeug :  * Debugger is active!
+[2017-06-11 14:15:39,752](INFO)werkzeug :  * Debugger PIN: 311-760-053
+[2017-06-11 14:15:46,922](INFO)werkzeug : 127.0.0.1 - - [11/Jun/2017 14:15:46] "GET /enterprise/ HTTP/1.1" 500 -
+[2017-06-11 14:15:46,951](INFO)werkzeug : 127.0.0.1 - - [11/Jun/2017 14:15:46] "GET /enterprise/?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1" 200 -
+[2017-06-11 14:15:46,953](INFO)werkzeug : 127.0.0.1 - - [11/Jun/2017 14:15:46] "GET /enterprise/?__debugger__=yes&cmd=resource&f=jquery.js HTTP/1.1" 200 -
+[2017-06-11 14:15:46,956](INFO)werkzeug : 127.0.0.1 - - [11/Jun/2017 14:15:46] "GET /enterprise/?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1" 200 -
+[2017-06-11 14:15:47,075](INFO)werkzeug : 127.0.0.1 - - [11/Jun/2017 14:15:47] "GET /enterprise/?__debugger__=yes&cmd=resource&f=ubuntu.ttf HTTP/1.1" 200 -
+[2017-06-11 14:15:47,197](INFO)werkzeug : 127.0.0.1 - - [11/Jun/2017 14:15:47] "GET /enterprise/?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1" 200 -
+[2017-06-11 14:15:47,292](INFO)werkzeug : 127.0.0.1 - - [11/Jun/2017 14:15:47] "GET /enterprise/?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1" 200 -
+[2017-06-11 14:16:15,146](INFO)werkzeug : 127.0.0.1 - - [11/Jun/2017 14:16:15] "GET /enterprise/ HTTP/1.1" 500 -
+[2017-06-11 14:16:15,167](INFO)werkzeug : 127.0.0.1 - - [11/Jun/2017 14:16:15] "GET /enterprise/?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1" 200 -
+[2017-06-11 14:16:15,169](INFO)werkzeug : 127.0.0.1 - - [11/Jun/2017 14:16:15] "GET /enterprise/?__debugger__=yes&cmd=resource&f=jquery.js HTTP/1.1" 200 -
+[2017-06-11 14:16:15,171](INFO)werkzeug : 127.0.0.1 - - [11/Jun/2017 14:16:15] "GET /enterprise/?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1" 200 -
+[2017-06-11 14:16:15,293](INFO)werkzeug : 127.0.0.1 - - [11/Jun/2017 14:16:15] "GET /enterprise/?__debugger__=yes&cmd=resource&f=ubuntu.ttf HTTP/1.1" 200 -
+[2017-06-11 14:16:15,375](INFO)werkzeug : 127.0.0.1 - - [11/Jun/2017 14:16:15] "GET /enterprise/?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1" 200 -
+[2017-06-11 14:16:15,501](INFO)werkzeug : 127.0.0.1 - - [11/Jun/2017 14:16:15] "GET /enterprise/?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1" 200 -
+[2017-06-11 14:16:27,291](INFO)werkzeug : 127.0.0.1 - - [11/Jun/2017 14:16:27] "GET /enterprise/ HTTP/1.1" 500 -
+[2017-06-11 14:16:27,311](INFO)werkzeug : 127.0.0.1 - - [11/Jun/2017 14:16:27] "GET /enterprise/?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1" 200 -
+[2017-06-11 14:16:27,312](INFO)werkzeug : 127.0.0.1 - - [11/Jun/2017 14:16:27] "GET /enterprise/?__debugger__=yes&cmd=resource&f=jquery.js HTTP/1.1" 200 -
+[2017-06-11 14:16:27,313](INFO)werkzeug : 127.0.0.1 - - [11/Jun/2017 14:16:27] "GET /enterprise/?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1" 200 -
+[2017-06-11 14:16:27,463](INFO)werkzeug : 127.0.0.1 - - [11/Jun/2017 14:16:27] "GET /enterprise/?__debugger__=yes&cmd=resource&f=ubuntu.ttf HTTP/1.1" 200 -
+[2017-06-11 14:16:27,566](INFO)werkzeug : 127.0.0.1 - - [11/Jun/2017 14:16:27] "GET /enterprise/?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1" 200 -
+[2017-06-11 14:16:27,703](INFO)werkzeug : 127.0.0.1 - - [11/Jun/2017 14:16:27] "GET /enterprise/?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1" 200 -
+[2017-06-11 14:17:30,153](INFO)werkzeug : 127.0.0.1 - - [11/Jun/2017 14:17:30] "GET /enterprise/ HTTP/1.1" 500 -
+[2017-06-11 14:17:30,173](INFO)werkzeug : 127.0.0.1 - - [11/Jun/2017 14:17:30] "GET /enterprise/?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1" 200 -
+[2017-06-11 14:17:30,175](INFO)werkzeug : 127.0.0.1 - - [11/Jun/2017 14:17:30] "GET /enterprise/?__debugger__=yes&cmd=resource&f=jquery.js HTTP/1.1" 200 -
+[2017-06-11 14:17:30,177](INFO)werkzeug : 127.0.0.1 - - [11/Jun/2017 14:17:30] "GET /enterprise/?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1" 200 -
+[2017-06-11 14:17:30,330](INFO)werkzeug : 127.0.0.1 - - [11/Jun/2017 14:17:30] "GET /enterprise/?__debugger__=yes&cmd=resource&f=ubuntu.ttf HTTP/1.1" 200 -
+[2017-06-11 14:17:30,410](INFO)werkzeug : 127.0.0.1 - - [11/Jun/2017 14:17:30] "GET /enterprise/?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1" 200 -
+[2017-06-11 14:17:30,518](INFO)werkzeug : 127.0.0.1 - - [11/Jun/2017 14:17:30] "GET /enterprise/?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1" 200 -
+[2017-06-11 14:17:31,522](INFO)werkzeug : 127.0.0.1 - - [11/Jun/2017 14:17:31] "GET /enterprise/ HTTP/1.1" 500 -
+[2017-06-11 14:17:31,554](INFO)werkzeug : 127.0.0.1 - - [11/Jun/2017 14:17:31] "GET /enterprise/?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1" 200 -
+[2017-06-11 14:17:31,555](INFO)werkzeug : 127.0.0.1 - - [11/Jun/2017 14:17:31] "GET /enterprise/?__debugger__=yes&cmd=resource&f=jquery.js HTTP/1.1" 200 -
+[2017-06-11 14:17:31,558](INFO)werkzeug : 127.0.0.1 - - [11/Jun/2017 14:17:31] "GET /enterprise/?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1" 200 -
+[2017-06-11 14:17:31,644](INFO)werkzeug : 127.0.0.1 - - [11/Jun/2017 14:17:31] "GET /enterprise/?__debugger__=yes&cmd=resource&f=ubuntu.ttf HTTP/1.1" 200 -
+[2017-06-11 14:17:31,716](INFO)werkzeug : 127.0.0.1 - - [11/Jun/2017 14:17:31] "GET /enterprise/?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1" 200 -
+[2017-06-11 14:17:31,811](INFO)werkzeug : 127.0.0.1 - - [11/Jun/2017 14:17:31] "GET /enterprise/?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1" 200 -
+[2017-06-11 14:17:43,811](INFO)werkzeug : 127.0.0.1 - - [11/Jun/2017 14:17:43] "GET /enterprise/ HTTP/1.1" 500 -
+[2017-06-11 14:17:43,832](INFO)werkzeug : 127.0.0.1 - - [11/Jun/2017 14:17:43] "GET /enterprise/?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1" 200 -
+[2017-06-11 14:17:43,834](INFO)werkzeug : 127.0.0.1 - - [11/Jun/2017 14:17:43] "GET /enterprise/?__debugger__=yes&cmd=resource&f=jquery.js HTTP/1.1" 200 -
+[2017-06-11 14:17:43,836](INFO)werkzeug : 127.0.0.1 - - [11/Jun/2017 14:17:43] "GET /enterprise/?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1" 200 -
+[2017-06-11 14:17:43,960](INFO)werkzeug : 127.0.0.1 - - [11/Jun/2017 14:17:43] "GET /enterprise/?__debugger__=yes&cmd=resource&f=ubuntu.ttf HTTP/1.1" 200 -
+[2017-06-11 14:17:44,041](INFO)werkzeug : 127.0.0.1 - - [11/Jun/2017 14:17:44] "GET /enterprise/?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1" 200 -
+[2017-06-11 14:17:44,124](INFO)werkzeug : 127.0.0.1 - - [11/Jun/2017 14:17:44] "GET /enterprise/?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1" 200 -
+[2017-06-11 14:19:00,704](INFO)werkzeug : 127.0.0.1 - - [11/Jun/2017 14:19:00] "GET /enterprise/ HTTP/1.1" 200 -
+[2017-06-11 14:19:00,733](INFO)werkzeug : 127.0.0.1 - - [11/Jun/2017 14:19:00] "GET /static/css/app.css HTTP/1.1" 200 -
+[2017-06-11 14:19:00,739](INFO)werkzeug : 127.0.0.1 - - [11/Jun/2017 14:19:00] "GET /static/vendors/swiper/css/swiper.min.css HTTP/1.1" 200 -
+[2017-06-11 14:19:00,742](INFO)werkzeug : 127.0.0.1 - - [11/Jun/2017 14:19:00] "GET /static/vendors/nvd3/css/nv.d3.min.css HTTP/1.1" 200 -
+[2017-06-11 14:19:00,745](INFO)werkzeug : 127.0.0.1 - - [11/Jun/2017 14:19:00] "GET /static/vendors/lcswitch/css/lc_switch.css HTTP/1.1" 200 -
+[2017-06-11 14:19:00,748](INFO)werkzeug : 127.0.0.1 - - [11/Jun/2017 14:19:00] "GET /static/css/custom.css HTTP/1.1" 200 -
+[2017-06-11 14:19:00,752](INFO)werkzeug : 127.0.0.1 - - [11/Jun/2017 14:19:00] "GET /static/css/custom_css/dashboard1.css HTTP/1.1" 200 -
+[2017-06-11 14:19:00,755](INFO)werkzeug : 127.0.0.1 - - [11/Jun/2017 14:19:00] "GET /static/css/custom_css/dashboard1_timeline.css HTTP/1.1" 200 -
+[2017-06-11 14:19:00,907](INFO)werkzeug : 127.0.0.1 - - [11/Jun/2017 14:19:00] "GET /static/fonts/themify.woff HTTP/1.1" 404 -
+[2017-06-11 14:19:01,310](INFO)werkzeug : 127.0.0.1 - - [11/Jun/2017 14:19:01] "GET /static/fonts/themify.ttf HTTP/1.1" 404 -
+[2017-06-11 14:19:37,185](INFO)werkzeug :  * Detected change in '/Users/max/Projects/bankerdealer/src/views/enterprise.py', reloading
+[2017-06-11 14:19:37,236](INFO)werkzeug :  * Restarting with stat
+[2017-06-11 14:19:38,593](WARNING)werkzeug :  * Debugger is active!
+[2017-06-11 14:19:38,633](INFO)werkzeug :  * Debugger PIN: 311-760-053
+[2017-06-11 14:19:43,676](INFO)werkzeug : 127.0.0.1 - - [11/Jun/2017 14:19:43] "GET /enterprise/ HTTP/1.1" 200 -
+[2017-06-11 14:19:44,011](INFO)werkzeug : 127.0.0.1 - - [11/Jun/2017 14:19:44] "GET /static/fonts/themify.woff HTTP/1.1" 404 -
+[2017-06-11 14:19:44,165](INFO)werkzeug : 127.0.0.1 - - [11/Jun/2017 14:19:44] "GET /static/fonts/themify.ttf HTTP/1.1" 404 -
+[2017-06-11 14:19:45,913](INFO)werkzeug : 127.0.0.1 - - [11/Jun/2017 14:19:45] "GET /enterprise HTTP/1.1" 301 -
+[2017-06-11 14:19:45,928](INFO)werkzeug : 127.0.0.1 - - [11/Jun/2017 14:19:45] "GET /enterprise/ HTTP/1.1" 200 -
+[2017-06-11 14:19:46,064](INFO)werkzeug : 127.0.0.1 - - [11/Jun/2017 14:19:46] "GET /static/fonts/themify.woff HTTP/1.1" 404 -
+[2017-06-11 14:19:46,135](INFO)werkzeug : 127.0.0.1 - - [11/Jun/2017 14:19:46] "GET /static/fonts/themify.ttf HTTP/1.1" 404 -
+[2017-06-11 14:19:47,595](INFO)werkzeug : 127.0.0.1 - - [11/Jun/2017 14:19:47] "GET /enterprise/ HTTP/1.1" 200 -
+[2017-06-11 14:19:47,725](INFO)werkzeug : 127.0.0.1 - - [11/Jun/2017 14:19:47] "GET /static/fonts/themify.woff HTTP/1.1" 404 -
+[2017-06-11 14:19:47,798](INFO)werkzeug : 127.0.0.1 - - [11/Jun/2017 14:19:47] "GET /static/fonts/themify.ttf HTTP/1.1" 404 -
+[2017-06-11 14:24:46,033](INFO)werkzeug : 127.0.0.1 - - [11/Jun/2017 14:24:46] "GET /enterprise/ HTTP/1.1" 200 -
+[2017-06-11 14:24:46,335](INFO)werkzeug : 127.0.0.1 - - [11/Jun/2017 14:24:46] "GET /static/fonts/themify.woff HTTP/1.1" 404 -
+[2017-06-11 14:24:46,512](INFO)werkzeug : 127.0.0.1 - - [11/Jun/2017 14:24:46] "GET /static/fonts/themify.ttf HTTP/1.1" 404 -
+[2017-06-11 14:24:48,758](INFO)werkzeug : 127.0.0.1 - - [11/Jun/2017 14:24:48] "GET /enterprise/ HTTP/1.1" 200 -
+[2017-06-11 14:24:48,905](INFO)werkzeug : 127.0.0.1 - - [11/Jun/2017 14:24:48] "GET /static/fonts/themify.woff HTTP/1.1" 404 -
+[2017-06-11 14:24:48,969](INFO)werkzeug : 127.0.0.1 - - [11/Jun/2017 14:24:48] "GET /static/fonts/themify.ttf HTTP/1.1" 404 -
+[2017-06-11 14:27:42,753](INFO)werkzeug :  * Detected change in '/Users/max/Projects/bankerdealer/src/__init__.py', reloading
+[2017-06-11 14:27:42,830](INFO)werkzeug :  * Restarting with stat
+[2017-06-11 14:27:43,844](WARNING)werkzeug :  * Debugger is active!
+[2017-06-11 14:27:43,876](INFO)werkzeug :  * Debugger PIN: 311-760-053
+[2017-06-11 14:28:15,215](INFO)werkzeug :  * Detected change in '/Users/max/Projects/bankerdealer/src/__init__.py', reloading
+[2017-06-11 14:28:15,252](INFO)werkzeug :  * Restarting with stat
+[2017-06-11 14:28:16,247](WARNING)werkzeug :  * Debugger is active!
+[2017-06-11 14:28:16,279](INFO)werkzeug :  * Debugger PIN: 311-760-053
+[2017-06-11 14:28:36,504](INFO)werkzeug :  * Detected change in '/Users/max/Projects/bankerdealer/src/__init__.py', reloading
+[2017-06-11 14:28:36,542](INFO)werkzeug :  * Restarting with stat
+[2017-06-11 14:28:37,658](WARNING)werkzeug :  * Debugger is active!
+[2017-06-11 14:28:37,700](INFO)werkzeug :  * Debugger PIN: 311-760-053
+[2017-06-11 14:28:45,799](INFO)werkzeug :  * Detected change in '/Users/max/Projects/bankerdealer/src/__init__.py', reloading
+[2017-06-11 14:28:45,842](INFO)werkzeug :  * Restarting with stat
+[2017-06-11 14:28:46,765](WARNING)werkzeug :  * Debugger is active!
+[2017-06-11 14:28:46,794](INFO)werkzeug :  * Debugger PIN: 311-760-053
+[2017-06-11 14:28:47,832](INFO)werkzeug :  * Detected change in '/Users/max/Projects/bankerdealer/src/__init__.py', reloading
+[2017-06-11 14:28:47,886](INFO)werkzeug :  * Restarting with stat
+[2017-06-11 14:28:48,951](WARNING)werkzeug :  * Debugger is active!
+[2017-06-11 14:28:48,992](INFO)werkzeug :  * Debugger PIN: 311-760-053
+[2017-06-11 14:28:57,636](INFO)werkzeug : 127.0.0.1 - - [11/Jun/2017 14:28:57] "GET /enterprise/ HTTP/1.1" 200 -
+[2017-06-11 14:28:57,873](INFO)werkzeug : 127.0.0.1 - - [11/Jun/2017 14:28:57] "GET /static/fonts/themify.woff HTTP/1.1" 404 -
+[2017-06-11 14:28:58,022](INFO)werkzeug : 127.0.0.1 - - [11/Jun/2017 14:28:58] "GET /static/fonts/themify.ttf HTTP/1.1" 404 -
+[2017-06-11 14:30:10,329](INFO)werkzeug : 127.0.0.1 - - [11/Jun/2017 14:30:10] "GET /enterprise/ HTTP/1.1" 200 -
+[2017-06-11 14:30:10,548](INFO)werkzeug : 127.0.0.1 - - [11/Jun/2017 14:30:10] "GET /static/fonts/themify.woff HTTP/1.1" 404 -
+[2017-06-11 14:30:10,717](INFO)werkzeug : 127.0.0.1 - - [11/Jun/2017 14:30:10] "GET /static/fonts/themify.ttf HTTP/1.1" 404 -
+[2017-06-11 14:30:15,404](INFO)werkzeug : 127.0.0.1 - - [11/Jun/2017 14:30:15] "GET /enterprise/ HTTP/1.1" 200 -
+[2017-06-11 14:30:15,517](INFO)werkzeug : 127.0.0.1 - - [11/Jun/2017 14:30:15] "GET /static/fonts/themify.woff HTTP/1.1" 404 -
+[2017-06-11 14:30:15,579](INFO)werkzeug : 127.0.0.1 - - [11/Jun/2017 14:30:15] "GET /static/fonts/themify.ttf HTTP/1.1" 404 -
+[2017-06-11 14:30:16,742](INFO)werkzeug : 127.0.0.1 - - [11/Jun/2017 14:30:16] "GET /enterprise/ HTTP/1.1" 200 -
+[2017-06-11 14:30:16,855](INFO)werkzeug : 127.0.0.1 - - [11/Jun/2017 14:30:16] "GET /static/fonts/themify.woff HTTP/1.1" 404 -
+[2017-06-11 14:30:16,906](INFO)werkzeug : 127.0.0.1 - - [11/Jun/2017 14:30:16] "GET /static/fonts/themify.ttf HTTP/1.1" 404 -
+[2017-06-11 14:31:31,763](INFO)werkzeug : 127.0.0.1 - - [11/Jun/2017 14:31:31] "GET /enterprise/ HTTP/1.1" 200 -
+[2017-06-11 14:31:32,009](INFO)werkzeug : 127.0.0.1 - - [11/Jun/2017 14:31:32] "GET /static/fonts/themify.woff HTTP/1.1" 404 -
+[2017-06-11 14:31:32,178](INFO)werkzeug : 127.0.0.1 - - [11/Jun/2017 14:31:32] "GET /static/fonts/themify.ttf HTTP/1.1" 404 -
+[2017-06-11 14:31:34,110](INFO)werkzeug : 127.0.0.1 - - [11/Jun/2017 14:31:34] "GET /enterprise/ HTTP/1.1" 200 -
+[2017-06-11 14:31:34,226](INFO)werkzeug : 127.0.0.1 - - [11/Jun/2017 14:31:34] "GET /static/fonts/themify.woff HTTP/1.1" 404 -
+[2017-06-11 14:31:34,285](INFO)werkzeug : 127.0.0.1 - - [11/Jun/2017 14:31:34] "GET /static/fonts/themify.ttf HTTP/1.1" 404 -
+[2017-06-11 14:31:37,029](INFO)werkzeug : 127.0.0.1 - - [11/Jun/2017 14:31:37] "GET /static/vendors/nvd3/css/nv.d3.min.css.map HTTP/1.1" 404 -
+[2017-06-11 14:33:16,561](INFO)werkzeug : 127.0.0.1 - - [11/Jun/2017 14:33:16] "GET /enterprise/ HTTP/1.1" 200 -
+[2017-06-11 14:33:16,609](INFO)werkzeug : 127.0.0.1 - - [11/Jun/2017 14:33:16] "GET /static/css/app.css HTTP/1.1" 200 -
+[2017-06-11 14:33:16,617](INFO)werkzeug : 127.0.0.1 - - [11/Jun/2017 14:33:16] "GET /static/vendors/swiper/css/swiper.min.css HTTP/1.1" 200 -
+[2017-06-11 14:33:16,620](INFO)werkzeug : 127.0.0.1 - - [11/Jun/2017 14:33:16] "GET /static/vendors/nvd3/css/nv.d3.min.css HTTP/1.1" 200 -
+[2017-06-11 14:33:16,623](INFO)werkzeug : 127.0.0.1 - - [11/Jun/2017 14:33:16] "GET /static/vendors/lcswitch/css/lc_switch.css HTTP/1.1" 200 -
+[2017-06-11 14:33:16,629](INFO)werkzeug : 127.0.0.1 - - [11/Jun/2017 14:33:16] "GET /static/css/custom.css HTTP/1.1" 200 -
+[2017-06-11 14:33:16,642](INFO)werkzeug : 127.0.0.1 - - [11/Jun/2017 14:33:16] "GET /static/css/custom_css/dashboard1.css HTTP/1.1" 200 -
+[2017-06-11 14:33:16,650](INFO)werkzeug : 127.0.0.1 - - [11/Jun/2017 14:33:16] "GET /static/css/custom_css/dashboard1_timeline.css HTTP/1.1" 200 -
+[2017-06-11 14:33:16,658](INFO)werkzeug : 127.0.0.1 - - [11/Jun/2017 14:33:16] "GET /static/css/buttons_sass.css HTTP/1.1" 200 -
+[2017-06-11 14:33:16,673](INFO)werkzeug : 127.0.0.1 - - [11/Jun/2017 14:33:16] "GET /static/css/advbuttons.css HTTP/1.1" 200 -
+[2017-06-11 14:33:16,683](INFO)werkzeug : 127.0.0.1 - - [11/Jun/2017 14:33:16] "GET /static/js/app.js HTTP/1.1" 200 -
+[2017-06-11 14:33:16,698](INFO)werkzeug : 127.0.0.1 - - [11/Jun/2017 14:33:16] "GET /static/js/custom_js/sparkline/jquery.flot.spline.js HTTP/1.1" 200 -
+[2017-06-11 14:33:16,708](INFO)werkzeug : 127.0.0.1 - - [11/Jun/2017 14:33:16] "GET /static/vendors/flip/js/jquery.flip.min.js HTTP/1.1" 200 -
+[2017-06-11 14:33:16,716](INFO)werkzeug : 127.0.0.1 - - [11/Jun/2017 14:33:16] "GET /static/vendors/lcswitch/js/lc_switch.min.js HTTP/1.1" 200 -
+[2017-06-11 14:33:16,728](INFO)werkzeug : 127.0.0.1 - - [11/Jun/2017 14:33:16] "GET /static/vendors/flotchart/js/jquery.flot.js HTTP/1.1" 200 -
+[2017-06-11 14:33:16,739](INFO)werkzeug : 127.0.0.1 - - [11/Jun/2017 14:33:16] "GET /static/vendors/flotchart/js/jquery.flot.resize.js HTTP/1.1" 200 -
+[2017-06-11 14:33:16,747](INFO)werkzeug : 127.0.0.1 - - [11/Jun/2017 14:33:16] "GET /static/vendors/flotchart/js/jquery.flot.stack.js HTTP/1.1" 200 -
+[2017-06-11 14:33:16,765](INFO)werkzeug : 127.0.0.1 - - [11/Jun/2017 14:33:16] "GET /static/vendors/flotspline/js/jquery.flot.spline.min.js HTTP/1.1" 200 -
+[2017-06-11 14:33:16,776](INFO)werkzeug : 127.0.0.1 - - [11/Jun/2017 14:33:16] "GET /static/vendors/flot.tooltip/js/jquery.flot.tooltip.js HTTP/1.1" 200 -
+[2017-06-11 14:33:16,785](INFO)werkzeug : 127.0.0.1 - - [11/Jun/2017 14:33:16] "GET /static/vendors/swiper/js/swiper.min.js HTTP/1.1" 200 -
+[2017-06-11 14:33:16,791](INFO)werkzeug : 127.0.0.1 - - [11/Jun/2017 14:33:16] "GET /static/vendors/chartjs/js/Chart.js HTTP/1.1" 200 -
+[2017-06-11 14:33:16,825](INFO)werkzeug : 127.0.0.1 - - [11/Jun/2017 14:33:16] "GET /static/js/nvd3/d3.v3.min.js HTTP/1.1" 200 -
+[2017-06-11 14:33:16,841](INFO)werkzeug : 127.0.0.1 - - [11/Jun/2017 14:33:16] "GET /static/vendors/nvd3/js/nv.d3.min.js HTTP/1.1" 200 -
+[2017-06-11 14:33:16,850](INFO)werkzeug : 127.0.0.1 - - [11/Jun/2017 14:33:16] "GET /static/vendors/moment/js/moment.min.js HTTP/1.1" 200 -
+[2017-06-11 14:33:16,861](INFO)werkzeug : 127.0.0.1 - - [11/Jun/2017 14:33:16] "GET /static/vendors/advanced_newsTicker/js/newsTicker.js HTTP/1.1" 200 -
+[2017-06-11 14:33:16,867](INFO)werkzeug : 127.0.0.1 - - [11/Jun/2017 14:33:16] "GET /static/js/dashboard1.js HTTP/1.1" 200 -
+[2017-06-11 14:33:16,871](INFO)werkzeug : 127.0.0.1 - - [11/Jun/2017 14:33:16] "GET /static/img/loader.gif HTTP/1.1" 200 -
+[2017-06-11 14:33:17,134](INFO)werkzeug : 127.0.0.1 - - [11/Jun/2017 14:33:17] "GET /static/fonts/themify.woff HTTP/1.1" 404 -
+[2017-06-11 14:33:17,371](INFO)werkzeug : 127.0.0.1 - - [11/Jun/2017 14:33:17] "GET /static/vendors/flip/js/jquery.flip.min.js.map HTTP/1.1" 404 -
+[2017-06-11 14:33:17,375](INFO)werkzeug : 127.0.0.1 - - [11/Jun/2017 14:33:17] "GET /static/vendors/swiper/js/maps/swiper.min.js.map HTTP/1.1" 404 -
+[2017-06-11 14:33:17,378](INFO)werkzeug : 127.0.0.1 - - [11/Jun/2017 14:33:17] "GET /static/vendors/nvd3/js/nv.d3.min.js.map HTTP/1.1" 404 -
+[2017-06-11 14:33:17,386](INFO)werkzeug : 127.0.0.1 - - [11/Jun/2017 14:33:17] "GET /static/vendors/nvd3/css/nv.d3.min.css.map HTTP/1.1" 404 -
+[2017-06-11 14:33:17,455](INFO)werkzeug : 127.0.0.1 - - [11/Jun/2017 14:33:17] "GET /static/fonts/themify.ttf HTTP/1.1" 404 -
+[2017-06-11 14:38:12,224](INFO)werkzeug : 127.0.0.1 - - [11/Jun/2017 14:38:12] "GET /enterprise/ HTTP/1.1" 200 -
+[2017-06-11 14:38:12,266](INFO)werkzeug : 127.0.0.1 - - [11/Jun/2017 14:38:12] "GET /static/css/app.css HTTP/1.1" 200 -
+[2017-06-11 14:38:12,276](INFO)werkzeug : 127.0.0.1 - - [11/Jun/2017 14:38:12] "GET /static/vendors/swiper/css/swiper.min.css HTTP/1.1" 200 -
+[2017-06-11 14:38:12,281](INFO)werkzeug : 127.0.0.1 - - [11/Jun/2017 14:38:12] "GET /static/vendors/nvd3/css/nv.d3.min.css HTTP/1.1" 200 -
+[2017-06-11 14:38:12,288](INFO)werkzeug : 127.0.0.1 - - [11/Jun/2017 14:38:12] "GET /static/vendors/lcswitch/css/lc_switch.css HTTP/1.1" 200 -
+[2017-06-11 14:38:12,294](INFO)werkzeug : 127.0.0.1 - - [11/Jun/2017 14:38:12] "GET /static/css/custom.css HTTP/1.1" 200 -
+[2017-06-11 14:38:12,300](INFO)werkzeug : 127.0.0.1 - - [11/Jun/2017 14:38:12] "GET /static/css/custom_css/dashboard1.css HTTP/1.1" 200 -
+[2017-06-11 14:38:12,307](INFO)werkzeug : 127.0.0.1 - - [11/Jun/2017 14:38:12] "GET /static/css/custom_css/dashboard1_timeline.css HTTP/1.1" 200 -
+[2017-06-11 14:38:12,310](INFO)werkzeug : 127.0.0.1 - - [11/Jun/2017 14:38:12] "GET /static/css/buttons_sass.css HTTP/1.1" 200 -
+[2017-06-11 14:38:12,314](INFO)werkzeug : 127.0.0.1 - - [11/Jun/2017 14:38:12] "GET /static/css/advbuttons.css HTTP/1.1" 200 -
+[2017-06-11 14:38:12,321](INFO)werkzeug : 127.0.0.1 - - [11/Jun/2017 14:38:12] "GET /static/js/app.js HTTP/1.1" 200 -
+[2017-06-11 14:38:12,336](INFO)werkzeug : 127.0.0.1 - - [11/Jun/2017 14:38:12] "GET /static/js/custom_js/sparkline/jquery.flot.spline.js HTTP/1.1" 200 -
+[2017-06-11 14:38:12,344](INFO)werkzeug : 127.0.0.1 - - [11/Jun/2017 14:38:12] "GET /static/vendors/flip/js/jquery.flip.min.js HTTP/1.1" 200 -
+[2017-06-11 14:38:12,353](INFO)werkzeug : 127.0.0.1 - - [11/Jun/2017 14:38:12] "GET /static/vendors/lcswitch/js/lc_switch.min.js HTTP/1.1" 200 -
+[2017-06-11 14:38:12,360](INFO)werkzeug : 127.0.0.1 - - [11/Jun/2017 14:38:12] "GET /static/vendors/flotchart/js/jquery.flot.js HTTP/1.1" 200 -
+[2017-06-11 14:38:12,370](INFO)werkzeug : 127.0.0.1 - - [11/Jun/2017 14:38:12] "GET /static/vendors/flotchart/js/jquery.flot.resize.js HTTP/1.1" 200 -
+[2017-06-11 14:38:12,376](INFO)werkzeug : 127.0.0.1 - - [11/Jun/2017 14:38:12] "GET /static/vendors/flotchart/js/jquery.flot.stack.js HTTP/1.1" 200 -
+[2017-06-11 14:38:12,382](INFO)werkzeug : 127.0.0.1 - - [11/Jun/2017 14:38:12] "GET /static/vendors/flotspline/js/jquery.flot.spline.min.js HTTP/1.1" 200 -
+[2017-06-11 14:38:12,388](INFO)werkzeug : 127.0.0.1 - - [11/Jun/2017 14:38:12] "GET /static/vendors/flot.tooltip/js/jquery.flot.tooltip.js HTTP/1.1" 200 -
+[2017-06-11 14:38:12,396](INFO)werkzeug : 127.0.0.1 - - [11/Jun/2017 14:38:12] "GET /static/vendors/swiper/js/swiper.min.js HTTP/1.1" 200 -
+[2017-06-11 14:38:12,404](INFO)werkzeug : 127.0.0.1 - - [11/Jun/2017 14:38:12] "GET /static/vendors/chartjs/js/Chart.js HTTP/1.1" 200 -
+[2017-06-11 14:38:12,420](INFO)werkzeug : 127.0.0.1 - - [11/Jun/2017 14:38:12] "GET /static/js/nvd3/d3.v3.min.js HTTP/1.1" 200 -
+[2017-06-11 14:38:12,428](INFO)werkzeug : 127.0.0.1 - - [11/Jun/2017 14:38:12] "GET /static/vendors/nvd3/js/nv.d3.min.js HTTP/1.1" 200 -
+[2017-06-11 14:38:12,439](INFO)werkzeug : 127.0.0.1 - - [11/Jun/2017 14:38:12] "GET /static/vendors/moment/js/moment.min.js HTTP/1.1" 200 -
+[2017-06-11 14:38:12,444](INFO)werkzeug : 127.0.0.1 - - [11/Jun/2017 14:38:12] "GET /static/vendors/advanced_newsTicker/js/newsTicker.js HTTP/1.1" 200 -
+[2017-06-11 14:38:12,449](INFO)werkzeug : 127.0.0.1 - - [11/Jun/2017 14:38:12] "GET /static/js/dashboard1.js HTTP/1.1" 200 -
+[2017-06-11 14:38:12,453](INFO)werkzeug : 127.0.0.1 - - [11/Jun/2017 14:38:12] "GET /static/vendors/Buttons/js/buttons.js HTTP/1.1" 200 -
+[2017-06-11 14:38:12,464](INFO)werkzeug : 127.0.0.1 - - [11/Jun/2017 14:38:12] "GET /static/vendors/laddabootstrap/js/spin.min.js HTTP/1.1" 200 -
+[2017-06-11 14:38:12,468](INFO)werkzeug : 127.0.0.1 - - [11/Jun/2017 14:38:12] "GET /static/vendors/laddabootstrap/js/ladda.min.js HTTP/1.1" 200 -
+[2017-06-11 14:38:12,472](INFO)werkzeug : 127.0.0.1 - - [11/Jun/2017 14:38:12] "GET /static/js/custom_js/button_main.js HTTP/1.1" 200 -
+[2017-06-11 14:38:12,474](INFO)werkzeug : 127.0.0.1 - - [11/Jun/2017 14:38:12] "GET /static/img/loader.gif HTTP/1.1" 200 -
+[2017-06-11 14:38:12,739](INFO)werkzeug : 127.0.0.1 - - [11/Jun/2017 14:38:12] "GET /static/fonts/themify.woff HTTP/1.1" 404 -
+[2017-06-11 14:38:13,018](INFO)werkzeug : 127.0.0.1 - - [11/Jun/2017 14:38:13] "GET /static/vendors/flip/js/jquery.flip.min.js.map HTTP/1.1" 404 -
+[2017-06-11 14:38:13,027](INFO)werkzeug : 127.0.0.1 - - [11/Jun/2017 14:38:13] "GET /static/vendors/swiper/js/maps/swiper.min.js.map HTTP/1.1" 404 -
+[2017-06-11 14:38:13,028](INFO)werkzeug : 127.0.0.1 - - [11/Jun/2017 14:38:13] "GET /static/vendors/nvd3/js/nv.d3.min.js.map HTTP/1.1" 404 -
+[2017-06-11 14:38:13,037](INFO)werkzeug : 127.0.0.1 - - [11/Jun/2017 14:38:13] "GET /static/vendors/nvd3/css/nv.d3.min.css.map HTTP/1.1" 404 -
+[2017-06-11 14:38:13,090](INFO)werkzeug : 127.0.0.1 - - [11/Jun/2017 14:38:13] "GET /static/fonts/themify.ttf HTTP/1.1" 404 -
+[2017-06-11 14:39:13,155](INFO)werkzeug : 127.0.0.1 - - [11/Jun/2017 14:39:13] "GET /enterprise/ HTTP/1.1" 500 -
+[2017-06-11 14:39:13,170](INFO)werkzeug : 127.0.0.1 - - [11/Jun/2017 14:39:13] "GET /enterprise/?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1" 200 -
+[2017-06-11 14:39:13,173](INFO)werkzeug : 127.0.0.1 - - [11/Jun/2017 14:39:13] "GET /enterprise/?__debugger__=yes&cmd=resource&f=jquery.js HTTP/1.1" 200 -
+[2017-06-11 14:39:13,177](INFO)werkzeug : 127.0.0.1 - - [11/Jun/2017 14:39:13] "GET /enterprise/?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1" 200 -
+[2017-06-11 14:39:13,216](INFO)werkzeug : 127.0.0.1 - - [11/Jun/2017 14:39:13] "GET /enterprise/?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1" 200 -
+[2017-06-11 14:39:13,230](INFO)werkzeug : 127.0.0.1 - - [11/Jun/2017 14:39:13] "GET /enterprise/?__debugger__=yes&cmd=resource&f=ubuntu.ttf HTTP/1.1" 200 -
+[2017-06-11 14:52:55,042](INFO)werkzeug : 127.0.0.1 - - [11/Jun/2017 14:52:55] "GET /enterprise/ HTTP/1.1" 200 -
+[2017-06-11 14:52:55,081](INFO)werkzeug : 127.0.0.1 - - [11/Jun/2017 14:52:55] "GET /static/css/app.css HTTP/1.1" 200 -
+[2017-06-11 14:52:55,086](INFO)werkzeug : 127.0.0.1 - - [11/Jun/2017 14:52:55] "GET /static/vendors/swiper/css/swiper.min.css HTTP/1.1" 200 -
+[2017-06-11 14:52:55,089](INFO)werkzeug : 127.0.0.1 - - [11/Jun/2017 14:52:55] "GET /static/vendors/nvd3/css/nv.d3.min.css HTTP/1.1" 200 -
+[2017-06-11 14:52:55,095](INFO)werkzeug : 127.0.0.1 - - [11/Jun/2017 14:52:55] "GET /static/vendors/lcswitch/css/lc_switch.css HTTP/1.1" 200 -
+[2017-06-11 14:52:55,098](INFO)werkzeug : 127.0.0.1 - - [11/Jun/2017 14:52:55] "GET /static/css/custom.css HTTP/1.1" 200 -
+[2017-06-11 14:52:55,104](INFO)werkzeug : 127.0.0.1 - - [11/Jun/2017 14:52:55] "GET /static/css/custom_css/dashboard1.css HTTP/1.1" 200 -
+[2017-06-11 14:52:55,109](INFO)werkzeug : 127.0.0.1 - - [11/Jun/2017 14:52:55] "GET /static/css/custom_css/dashboard1_timeline.css HTTP/1.1" 200 -
+[2017-06-11 14:52:55,112](INFO)werkzeug : 127.0.0.1 - - [11/Jun/2017 14:52:55] "GET /static/css/buttons_sass.css HTTP/1.1" 200 -
+[2017-06-11 14:52:55,129](INFO)werkzeug : 127.0.0.1 - - [11/Jun/2017 14:52:55] "GET /static/css/advbuttons.css HTTP/1.1" 200 -
+[2017-06-11 14:52:55,136](INFO)werkzeug : 127.0.0.1 - - [11/Jun/2017 14:52:55] "GET /static/vendors/datatables/css/dataTables.bootstrap.css HTTP/1.1" 200 -
+[2017-06-11 14:52:55,139](INFO)werkzeug : 127.0.0.1 - - [11/Jun/2017 14:52:55] "GET /static/vendors/datatables/css/buttons.bootstrap.css HTTP/1.1" 200 -
+[2017-06-11 14:52:55,143](INFO)werkzeug : 127.0.0.1 - - [11/Jun/2017 14:52:55] "GET /static/vendors/datatables/css/colReorder.bootstrap.css HTTP/1.1" 200 -
+[2017-06-11 14:52:55,148](INFO)werkzeug : 127.0.0.1 - - [11/Jun/2017 14:52:55] "GET /static/vendors/datatables/css/rowReorder.bootstrap.css HTTP/1.1" 200 -
+[2017-06-11 14:52:55,155](INFO)werkzeug : 127.0.0.1 - - [11/Jun/2017 14:52:55] "GET /static/vendors/datatables/css/scroller.bootstrap.css HTTP/1.1" 200 -
+[2017-06-11 14:52:55,161](INFO)werkzeug : 127.0.0.1 - - [11/Jun/2017 14:52:55] "GET /static/js/app.js HTTP/1.1" 200 -
+[2017-06-11 14:52:55,233](INFO)werkzeug : 127.0.0.1 - - [11/Jun/2017 14:52:55] "GET /static/js/custom_js/sparkline/jquery.flot.spline.js HTTP/1.1" 200 -
+[2017-06-11 14:52:55,239](INFO)werkzeug : 127.0.0.1 - - [11/Jun/2017 14:52:55] "GET /static/vendors/flip/js/jquery.flip.min.js HTTP/1.1" 200 -
+[2017-06-11 14:52:55,242](INFO)werkzeug : 127.0.0.1 - - [11/Jun/2017 14:52:55] "GET /static/vendors/lcswitch/js/lc_switch.min.js HTTP/1.1" 200 -
+[2017-06-11 14:52:55,244](INFO)werkzeug : 127.0.0.1 - - [11/Jun/2017 14:52:55] "GET /static/vendors/flotchart/js/jquery.flot.js HTTP/1.1" 200 -
+[2017-06-11 14:52:55,248](INFO)werkzeug : 127.0.0.1 - - [11/Jun/2017 14:52:55] "GET /static/vendors/flotchart/js/jquery.flot.resize.js HTTP/1.1" 200 -
+[2017-06-11 14:52:55,251](INFO)werkzeug : 127.0.0.1 - - [11/Jun/2017 14:52:55] "GET /static/vendors/flotchart/js/jquery.flot.stack.js HTTP/1.1" 200 -
+[2017-06-11 14:52:55,253](INFO)werkzeug : 127.0.0.1 - - [11/Jun/2017 14:52:55] "GET /static/vendors/flotspline/js/jquery.flot.spline.min.js HTTP/1.1" 200 -
+[2017-06-11 14:52:55,256](INFO)werkzeug : 127.0.0.1 - - [11/Jun/2017 14:52:55] "GET /static/vendors/flot.tooltip/js/jquery.flot.tooltip.js HTTP/1.1" 200 -
+[2017-06-11 14:52:55,259](INFO)werkzeug : 127.0.0.1 - - [11/Jun/2017 14:52:55] "GET /static/vendors/swiper/js/swiper.min.js HTTP/1.1" 200 -
+[2017-06-11 14:52:55,267](INFO)werkzeug : 127.0.0.1 - - [11/Jun/2017 14:52:55] "GET /static/vendors/chartjs/js/Chart.js HTTP/1.1" 200 -
+[2017-06-11 14:52:55,274](INFO)werkzeug : 127.0.0.1 - - [11/Jun/2017 14:52:55] "GET /static/js/nvd3/d3.v3.min.js HTTP/1.1" 200 -
+[2017-06-11 14:52:55,279](INFO)werkzeug : 127.0.0.1 - - [11/Jun/2017 14:52:55] "GET /static/vendors/nvd3/js/nv.d3.min.js HTTP/1.1" 200 -
+[2017-06-11 14:52:55,287](INFO)werkzeug : 127.0.0.1 - - [11/Jun/2017 14:52:55] "GET /static/vendors/moment/js/moment.min.js HTTP/1.1" 200 -
+[2017-06-11 14:52:55,291](INFO)werkzeug : 127.0.0.1 - - [11/Jun/2017 14:52:55] "GET /static/vendors/advanced_newsTicker/js/newsTicker.js HTTP/1.1" 200 -
+[2017-06-11 14:52:55,304](INFO)werkzeug : 127.0.0.1 - - [11/Jun/2017 14:52:55] "GET /static/js/dashboard1.js HTTP/1.1" 200 -
+[2017-06-11 14:52:55,312](INFO)werkzeug : 127.0.0.1 - - [11/Jun/2017 14:52:55] "GET /static/vendors/Buttons/js/buttons.js HTTP/1.1" 200 -
+[2017-06-11 14:52:55,316](INFO)werkzeug : 127.0.0.1 - - [11/Jun/2017 14:52:55] "GET /static/vendors/laddabootstrap/js/spin.min.js HTTP/1.1" 200 -
+[2017-06-11 14:52:55,319](INFO)werkzeug : 127.0.0.1 - - [11/Jun/2017 14:52:55] "GET /static/vendors/laddabootstrap/js/ladda.min.js HTTP/1.1" 200 -
+[2017-06-11 14:52:55,321](INFO)werkzeug : 127.0.0.1 - - [11/Jun/2017 14:52:55] "GET /static/js/custom_js/button_main.js HTTP/1.1" 200 -
+[2017-06-11 14:52:55,332](INFO)werkzeug : 127.0.0.1 - - [11/Jun/2017 14:52:55] "GET /static/vendors/datatables/js/jquery.dataTables.js HTTP/1.1" 200 -
+[2017-06-11 14:52:55,341](INFO)werkzeug : 127.0.0.1 - - [11/Jun/2017 14:52:55] "GET /static/vendors/datatables/js/dataTables.bootstrap.js HTTP/1.1" 200 -
+[2017-06-11 14:52:55,344](INFO)werkzeug : 127.0.0.1 - - [11/Jun/2017 14:52:55] "GET /static/vendors/datatables/js/dataTables.buttons.js HTTP/1.1" 200 -
+[2017-06-11 14:52:55,348](INFO)werkzeug : 127.0.0.1 - - [11/Jun/2017 14:52:55] "GET /static/vendors/datatables/js/dataTables.colReorder.js HTTP/1.1" 200 -
+[2017-06-11 14:52:55,352](INFO)werkzeug : 127.0.0.1 - - [11/Jun/2017 14:52:55] "GET /static/vendors/datatables/js/dataTables.responsive.js HTTP/1.1" 200 -
+[2017-06-11 14:52:55,359](INFO)werkzeug : 127.0.0.1 - - [11/Jun/2017 14:52:55] "GET /static/vendors/datatables/js/dataTables.rowReorder.js HTTP/1.1" 200 -
+[2017-06-11 14:52:55,363](INFO)werkzeug : 127.0.0.1 - - [11/Jun/2017 14:52:55] "GET /static/vendors/datatables/js/buttons.colVis.js HTTP/1.1" 200 -
+[2017-06-11 14:52:55,365](INFO)werkzeug : 127.0.0.1 - - [11/Jun/2017 14:52:55] "GET /static/vendors/datatables/js/buttons.html5.js HTTP/1.1" 200 -
+[2017-06-11 14:52:55,376](INFO)werkzeug : 127.0.0.1 - - [11/Jun/2017 14:52:55] "GET /static/vendors/datatables/js/buttons.bootstrap.js HTTP/1.1" 200 -
+[2017-06-11 14:52:55,378](INFO)werkzeug : 127.0.0.1 - - [11/Jun/2017 14:52:55] "GET /static/vendors/datatables/js/buttons.print.js HTTP/1.1" 200 -
+[2017-06-11 14:52:55,380](INFO)werkzeug : 127.0.0.1 - - [11/Jun/2017 14:52:55] "GET /static/vendors/datatables/js/dataTables.scroller.js HTTP/1.1" 200 -
+[2017-06-11 14:52:55,384](INFO)werkzeug : 127.0.0.1 - - [11/Jun/2017 14:52:55] "GET /static/js/custom_js/advanced_datatables.js HTTP/1.1" 200 -
+[2017-06-11 14:52:55,387](INFO)werkzeug : 127.0.0.1 - - [11/Jun/2017 14:52:55] "GET /static/img/loader.gif HTTP/1.1" 200 -
+[2017-06-11 14:52:55,568](INFO)werkzeug : 127.0.0.1 - - [11/Jun/2017 14:52:55] "GET /static/fonts/themify.woff HTTP/1.1" 404 -
+[2017-06-11 14:52:55,889](INFO)werkzeug : 127.0.0.1 - - [11/Jun/2017 14:52:55] "GET /static/vendors/flip/js/jquery.flip.min.js.map HTTP/1.1" 404 -
+[2017-06-11 14:52:55,894](INFO)werkzeug : 127.0.0.1 - - [11/Jun/2017 14:52:55] "GET /static/vendors/swiper/js/maps/swiper.min.js.map HTTP/1.1" 404 -
+[2017-06-11 14:52:55,897](INFO)werkzeug : 127.0.0.1 - - [11/Jun/2017 14:52:55] "GET /static/vendors/nvd3/js/nv.d3.min.js.map HTTP/1.1" 404 -
+[2017-06-11 14:52:55,913](INFO)werkzeug : 127.0.0.1 - - [11/Jun/2017 14:52:55] "GET /static/vendors/nvd3/css/nv.d3.min.css.map HTTP/1.1" 404 -
+[2017-06-11 14:52:55,952](INFO)werkzeug : 127.0.0.1 - - [11/Jun/2017 14:52:55] "GET /static/fonts/themify.ttf HTTP/1.1" 404 -
+[2017-06-11 14:55:00,486](INFO)werkzeug : 127.0.0.1 - - [11/Jun/2017 14:55:00] "GET /enterprise/ HTTP/1.1" 200 -
+[2017-06-11 14:55:00,742](INFO)werkzeug : 127.0.0.1 - - [11/Jun/2017 14:55:00] "GET /static/fonts/themify.woff HTTP/1.1" 404 -
+[2017-06-11 14:55:00,988](INFO)werkzeug : 127.0.0.1 - - [11/Jun/2017 14:55:00] "GET /static/fonts/themify.ttf HTTP/1.1" 404 -
+[2017-06-11 14:56:18,673](INFO)werkzeug : 127.0.0.1 - - [11/Jun/2017 14:56:18] "GET /enterprise/ HTTP/1.1" 200 -
+[2017-06-11 14:56:18,890](INFO)werkzeug : 127.0.0.1 - - [11/Jun/2017 14:56:18] "GET /static/fonts/themify.woff HTTP/1.1" 404 -
+[2017-06-11 14:56:19,075](INFO)werkzeug : 127.0.0.1 - - [11/Jun/2017 14:56:19] "GET /static/fonts/themify.ttf HTTP/1.1" 404 -
+[2017-06-11 14:56:38,888](INFO)werkzeug : 127.0.0.1 - - [11/Jun/2017 14:56:38] "GET /enterprise/ HTTP/1.1" 200 -
+[2017-06-11 14:56:39,113](INFO)werkzeug : 127.0.0.1 - - [11/Jun/2017 14:56:39] "GET /static/fonts/themify.woff HTTP/1.1" 404 -
+[2017-06-11 14:56:39,279](INFO)werkzeug : 127.0.0.1 - - [11/Jun/2017 14:56:39] "GET /static/fonts/themify.ttf HTTP/1.1" 404 -
+[2017-06-11 14:57:26,845](INFO)werkzeug : 127.0.0.1 - - [11/Jun/2017 14:57:26] "GET /enterprise/ HTTP/1.1" 200 -
+[2017-06-11 14:57:27,043](INFO)werkzeug : 127.0.0.1 - - [11/Jun/2017 14:57:27] "GET /static/fonts/themify.woff HTTP/1.1" 404 -
+[2017-06-11 14:57:27,199](INFO)werkzeug : 127.0.0.1 - - [11/Jun/2017 14:57:27] "GET /static/fonts/themify.ttf HTTP/1.1" 404 -
+[2017-06-11 14:57:32,200](INFO)werkzeug : 127.0.0.1 - - [11/Jun/2017 14:57:32] "GET /enterprise/ HTTP/1.1" 200 -
+[2017-06-11 14:57:32,323](INFO)werkzeug : 127.0.0.1 - - [11/Jun/2017 14:57:32] "GET /static/fonts/themify.woff HTTP/1.1" 404 -
+[2017-06-11 14:57:32,390](INFO)werkzeug : 127.0.0.1 - - [11/Jun/2017 14:57:32] "GET /static/fonts/themify.ttf HTTP/1.1" 404 -
+[2017-06-11 14:59:34,684](INFO)werkzeug : 127.0.0.1 - - [11/Jun/2017 14:59:34] "GET /enterprise/ HTTP/1.1" 200 -
+[2017-06-11 14:59:34,895](INFO)werkzeug : 127.0.0.1 - - [11/Jun/2017 14:59:34] "GET /static/fonts/themify.woff HTTP/1.1" 404 -
+[2017-06-11 14:59:35,073](INFO)werkzeug : 127.0.0.1 - - [11/Jun/2017 14:59:35] "GET /static/fonts/themify.ttf HTTP/1.1" 404 -
+[2017-06-11 15:00:09,893](INFO)werkzeug : 127.0.0.1 - - [11/Jun/2017 15:00:09] "GET /enterprise/ HTTP/1.1" 200 -
+[2017-06-11 15:00:10,110](INFO)werkzeug : 127.0.0.1 - - [11/Jun/2017 15:00:10] "GET /static/fonts/themify.woff HTTP/1.1" 404 -
+[2017-06-11 15:00:10,287](INFO)werkzeug : 127.0.0.1 - - [11/Jun/2017 15:00:10] "GET /static/fonts/themify.ttf HTTP/1.1" 404 -
+[2017-06-11 15:00:30,113](INFO)werkzeug : 127.0.0.1 - - [11/Jun/2017 15:00:30] "GET /static/vendors/nvd3/css/nv.d3.min.css.map HTTP/1.1" 404 -
+[2017-06-11 15:00:31,710](INFO)werkzeug : 127.0.0.1 - - [11/Jun/2017 15:00:31] "GET /enterprise/ HTTP/1.1" 200 -
+[2017-06-11 15:00:31,753](INFO)werkzeug : 127.0.0.1 - - [11/Jun/2017 15:00:31] "GET /static/css/app.css HTTP/1.1" 200 -
+[2017-06-11 15:00:31,758](INFO)werkzeug : 127.0.0.1 - - [11/Jun/2017 15:00:31] "GET /static/vendors/swiper/css/swiper.min.css HTTP/1.1" 200 -
+[2017-06-11 15:00:31,761](INFO)werkzeug : 127.0.0.1 - - [11/Jun/2017 15:00:31] "GET /static/vendors/nvd3/css/nv.d3.min.css HTTP/1.1" 200 -
+[2017-06-11 15:00:31,764](INFO)werkzeug : 127.0.0.1 - - [11/Jun/2017 15:00:31] "GET /static/vendors/lcswitch/css/lc_switch.css HTTP/1.1" 200 -
+[2017-06-11 15:00:31,767](INFO)werkzeug : 127.0.0.1 - - [11/Jun/2017 15:00:31] "GET /static/css/custom.css HTTP/1.1" 200 -
+[2017-06-11 15:00:31,770](INFO)werkzeug : 127.0.0.1 - - [11/Jun/2017 15:00:31] "GET /static/css/custom_css/dashboard1.css HTTP/1.1" 200 -
+[2017-06-11 15:00:31,773](INFO)werkzeug : 127.0.0.1 - - [11/Jun/2017 15:00:31] "GET /static/css/custom_css/dashboard1_timeline.css HTTP/1.1" 200 -
+[2017-06-11 15:00:31,775](INFO)werkzeug : 127.0.0.1 - - [11/Jun/2017 15:00:31] "GET /static/css/buttons_sass.css HTTP/1.1" 200 -
+[2017-06-11 15:00:31,779](INFO)werkzeug : 127.0.0.1 - - [11/Jun/2017 15:00:31] "GET /static/css/advbuttons.css HTTP/1.1" 200 -
+[2017-06-11 15:00:31,782](INFO)werkzeug : 127.0.0.1 - - [11/Jun/2017 15:00:31] "GET /static/vendors/datatables/css/dataTables.bootstrap.css HTTP/1.1" 200 -
+[2017-06-11 15:00:31,784](INFO)werkzeug : 127.0.0.1 - - [11/Jun/2017 15:00:31] "GET /static/vendors/datatables/css/buttons.bootstrap.css HTTP/1.1" 200 -
+[2017-06-11 15:00:31,787](INFO)werkzeug : 127.0.0.1 - - [11/Jun/2017 15:00:31] "GET /static/vendors/datatables/css/colReorder.bootstrap.css HTTP/1.1" 200 -
+[2017-06-11 15:00:31,789](INFO)werkzeug : 127.0.0.1 - - [11/Jun/2017 15:00:31] "GET /static/vendors/datatables/css/rowReorder.bootstrap.css HTTP/1.1" 200 -
+[2017-06-11 15:00:31,792](INFO)werkzeug : 127.0.0.1 - - [11/Jun/2017 15:00:31] "GET /static/vendors/datatables/css/scroller.bootstrap.css HTTP/1.1" 200 -
+[2017-06-11 15:00:31,798](INFO)werkzeug : 127.0.0.1 - - [11/Jun/2017 15:00:31] "GET /static/js/app.js HTTP/1.1" 200 -
+[2017-06-11 15:00:31,810](INFO)werkzeug : 127.0.0.1 - - [11/Jun/2017 15:00:31] "GET /static/js/custom_js/sparkline/jquery.flot.spline.js HTTP/1.1" 200 -
+[2017-06-11 15:00:31,817](INFO)werkzeug : 127.0.0.1 - - [11/Jun/2017 15:00:31] "GET /static/vendors/flip/js/jquery.flip.min.js HTTP/1.1" 200 -
+[2017-06-11 15:00:31,824](INFO)werkzeug : 127.0.0.1 - - [11/Jun/2017 15:00:31] "GET /static/vendors/lcswitch/js/lc_switch.min.js HTTP/1.1" 200 -
+[2017-06-11 15:00:31,829](INFO)werkzeug : 127.0.0.1 - - [11/Jun/2017 15:00:31] "GET /static/vendors/flotchart/js/jquery.flot.js HTTP/1.1" 200 -
+[2017-06-11 15:00:31,836](INFO)werkzeug : 127.0.0.1 - - [11/Jun/2017 15:00:31] "GET /static/vendors/flotchart/js/jquery.flot.resize.js HTTP/1.1" 200 -
+[2017-06-11 15:00:31,841](INFO)werkzeug : 127.0.0.1 - - [11/Jun/2017 15:00:31] "GET /static/vendors/flotchart/js/jquery.flot.stack.js HTTP/1.1" 200 -
+[2017-06-11 15:00:31,847](INFO)werkzeug : 127.0.0.1 - - [11/Jun/2017 15:00:31] "GET /static/vendors/flotspline/js/jquery.flot.spline.min.js HTTP/1.1" 200 -
+[2017-06-11 15:00:31,852](INFO)werkzeug : 127.0.0.1 - - [11/Jun/2017 15:00:31] "GET /static/vendors/flot.tooltip/js/jquery.flot.tooltip.js HTTP/1.1" 200 -
+[2017-06-11 15:00:31,857](INFO)werkzeug : 127.0.0.1 - - [11/Jun/2017 15:00:31] "GET /static/vendors/swiper/js/swiper.min.js HTTP/1.1" 200 -
+[2017-06-11 15:00:31,864](INFO)werkzeug : 127.0.0.1 - - [11/Jun/2017 15:00:31] "GET /static/vendors/chartjs/js/Chart.js HTTP/1.1" 200 -
+[2017-06-11 15:00:31,877](INFO)werkzeug : 127.0.0.1 - - [11/Jun/2017 15:00:31] "GET /static/js/nvd3/d3.v3.min.js HTTP/1.1" 200 -
+[2017-06-11 15:00:31,882](INFO)werkzeug : 127.0.0.1 - - [11/Jun/2017 15:00:31] "GET /static/vendors/nvd3/js/nv.d3.min.js HTTP/1.1" 200 -
+[2017-06-11 15:00:31,887](INFO)werkzeug : 127.0.0.1 - - [11/Jun/2017 15:00:31] "GET /static/vendors/moment/js/moment.min.js HTTP/1.1" 200 -
+[2017-06-11 15:00:31,891](INFO)werkzeug : 127.0.0.1 - - [11/Jun/2017 15:00:31] "GET /static/vendors/advanced_newsTicker/js/newsTicker.js HTTP/1.1" 200 -
+[2017-06-11 15:00:31,894](INFO)werkzeug : 127.0.0.1 - - [11/Jun/2017 15:00:31] "GET /static/js/dashboard1.js HTTP/1.1" 200 -
+[2017-06-11 15:00:31,897](INFO)werkzeug : 127.0.0.1 - - [11/Jun/2017 15:00:31] "GET /static/vendors/Buttons/js/buttons.js HTTP/1.1" 200 -
+[2017-06-11 15:00:31,900](INFO)werkzeug : 127.0.0.1 - - [11/Jun/2017 15:00:31] "GET /static/vendors/laddabootstrap/js/spin.min.js HTTP/1.1" 200 -
+[2017-06-11 15:00:31,904](INFO)werkzeug : 127.0.0.1 - - [11/Jun/2017 15:00:31] "GET /static/vendors/laddabootstrap/js/ladda.min.js HTTP/1.1" 200 -
+[2017-06-11 15:00:31,908](INFO)werkzeug : 127.0.0.1 - - [11/Jun/2017 15:00:31] "GET /static/js/custom_js/button_main.js HTTP/1.1" 200 -
+[2017-06-11 15:00:31,911](INFO)werkzeug : 127.0.0.1 - - [11/Jun/2017 15:00:31] "GET /static/vendors/datatables/js/jquery.dataTables.js HTTP/1.1" 200 -
+[2017-06-11 15:00:31,920](INFO)werkzeug : 127.0.0.1 - - [11/Jun/2017 15:00:31] "GET /static/vendors/datatables/js/dataTables.bootstrap.js HTTP/1.1" 200 -
+[2017-06-11 15:00:31,924](INFO)werkzeug : 127.0.0.1 - - [11/Jun/2017 15:00:31] "GET /static/vendors/datatables/js/dataTables.buttons.js HTTP/1.1" 200 -
+[2017-06-11 15:00:31,927](INFO)werkzeug : 127.0.0.1 - - [11/Jun/2017 15:00:31] "GET /static/vendors/datatables/js/dataTables.colReorder.js HTTP/1.1" 200 -
+[2017-06-11 15:00:31,931](INFO)werkzeug : 127.0.0.1 - - [11/Jun/2017 15:00:31] "GET /static/vendors/datatables/js/dataTables.responsive.js HTTP/1.1" 200 -
+[2017-06-11 15:00:31,934](INFO)werkzeug : 127.0.0.1 - - [11/Jun/2017 15:00:31] "GET /static/vendors/datatables/js/dataTables.rowReorder.js HTTP/1.1" 200 -
+[2017-06-11 15:00:31,937](INFO)werkzeug : 127.0.0.1 - - [11/Jun/2017 15:00:31] "GET /static/vendors/datatables/js/buttons.colVis.js HTTP/1.1" 200 -
+[2017-06-11 15:00:31,940](INFO)werkzeug : 127.0.0.1 - - [11/Jun/2017 15:00:31] "GET /static/vendors/datatables/js/buttons.html5.js HTTP/1.1" 200 -
+[2017-06-11 15:00:31,944](INFO)werkzeug : 127.0.0.1 - - [11/Jun/2017 15:00:31] "GET /static/vendors/datatables/js/buttons.bootstrap.js HTTP/1.1" 200 -
+[2017-06-11 15:00:31,947](INFO)werkzeug : 127.0.0.1 - - [11/Jun/2017 15:00:31] "GET /static/vendors/datatables/js/buttons.print.js HTTP/1.1" 200 -
+[2017-06-11 15:00:31,952](INFO)werkzeug : 127.0.0.1 - - [11/Jun/2017 15:00:31] "GET /static/vendors/datatables/js/dataTables.scroller.js HTTP/1.1" 200 -
+[2017-06-11 15:00:31,957](INFO)werkzeug : 127.0.0.1 - - [11/Jun/2017 15:00:31] "GET /static/js/custom_js/advanced_datatables.js HTTP/1.1" 200 -
+[2017-06-11 15:00:31,960](INFO)werkzeug : 127.0.0.1 - - [11/Jun/2017 15:00:31] "GET /static/img/loader.gif HTTP/1.1" 200 -
+[2017-06-11 15:00:32,003](INFO)werkzeug : 127.0.0.1 - - [11/Jun/2017 15:00:32] "GET /static/vendors/nvd3/css/nv.d3.min.css.map HTTP/1.1" 404 -
+[2017-06-11 15:00:32,127](INFO)werkzeug : 127.0.0.1 - - [11/Jun/2017 15:00:32] "GET /static/fonts/themify.woff HTTP/1.1" 404 -
+[2017-06-11 15:00:32,422](INFO)werkzeug : 127.0.0.1 - - [11/Jun/2017 15:00:32] "GET /static/vendors/flip/js/jquery.flip.min.js.map HTTP/1.1" 404 -
+[2017-06-11 15:00:32,425](INFO)werkzeug : 127.0.0.1 - - [11/Jun/2017 15:00:32] "GET /static/vendors/swiper/js/maps/swiper.min.js.map HTTP/1.1" 404 -
+[2017-06-11 15:00:32,428](INFO)werkzeug : 127.0.0.1 - - [11/Jun/2017 15:00:32] "GET /static/vendors/nvd3/js/nv.d3.min.js.map HTTP/1.1" 404 -
+[2017-06-11 15:00:32,470](INFO)werkzeug : 127.0.0.1 - - [11/Jun/2017 15:00:32] "GET /static/fonts/themify.ttf HTTP/1.1" 404 -
+[2017-06-11 15:00:43,569](INFO)werkzeug : 127.0.0.1 - - [11/Jun/2017 15:00:43] "GET /enterprise/ HTTP/1.1" 200 -
+[2017-06-11 15:00:43,616](INFO)werkzeug : 127.0.0.1 - - [11/Jun/2017 15:00:43] "GET /static/css/app.css HTTP/1.1" 200 -
+[2017-06-11 15:00:43,619](INFO)werkzeug : 127.0.0.1 - - [11/Jun/2017 15:00:43] "GET /static/vendors/swiper/css/swiper.min.css HTTP/1.1" 200 -
+[2017-06-11 15:00:43,621](INFO)werkzeug : 127.0.0.1 - - [11/Jun/2017 15:00:43] "GET /static/vendors/nvd3/css/nv.d3.min.css HTTP/1.1" 200 -
+[2017-06-11 15:00:43,624](INFO)werkzeug : 127.0.0.1 - - [11/Jun/2017 15:00:43] "GET /static/vendors/lcswitch/css/lc_switch.css HTTP/1.1" 200 -
+[2017-06-11 15:00:43,626](INFO)werkzeug : 127.0.0.1 - - [11/Jun/2017 15:00:43] "GET /static/css/custom.css HTTP/1.1" 200 -
+[2017-06-11 15:00:43,628](INFO)werkzeug : 127.0.0.1 - - [11/Jun/2017 15:00:43] "GET /static/css/custom_css/dashboard1.css HTTP/1.1" 200 -
+[2017-06-11 15:00:43,630](INFO)werkzeug : 127.0.0.1 - - [11/Jun/2017 15:00:43] "GET /static/css/custom_css/dashboard1_timeline.css HTTP/1.1" 200 -
+[2017-06-11 15:00:43,632](INFO)werkzeug : 127.0.0.1 - - [11/Jun/2017 15:00:43] "GET /static/css/buttons_sass.css HTTP/1.1" 200 -
+[2017-06-11 15:00:43,634](INFO)werkzeug : 127.0.0.1 - - [11/Jun/2017 15:00:43] "GET /static/css/advbuttons.css HTTP/1.1" 200 -
+[2017-06-11 15:00:43,636](INFO)werkzeug : 127.0.0.1 - - [11/Jun/2017 15:00:43] "GET /static/vendors/datatables/css/dataTables.bootstrap.css HTTP/1.1" 200 -
+[2017-06-11 15:00:43,639](INFO)werkzeug : 127.0.0.1 - - [11/Jun/2017 15:00:43] "GET /static/vendors/datatables/css/buttons.bootstrap.css HTTP/1.1" 200 -
+[2017-06-11 15:00:43,642](INFO)werkzeug : 127.0.0.1 - - [11/Jun/2017 15:00:43] "GET /static/vendors/datatables/css/colReorder.bootstrap.css HTTP/1.1" 200 -
+[2017-06-11 15:00:43,644](INFO)werkzeug : 127.0.0.1 - - [11/Jun/2017 15:00:43] "GET /static/vendors/datatables/css/rowReorder.bootstrap.css HTTP/1.1" 200 -
+[2017-06-11 15:00:43,680](INFO)werkzeug : 127.0.0.1 - - [11/Jun/2017 15:00:43] "GET /static/vendors/datatables/css/scroller.bootstrap.css HTTP/1.1" 200 -
+[2017-06-11 15:00:43,683](INFO)werkzeug : 127.0.0.1 - - [11/Jun/2017 15:00:43] "GET /static/js/app.js HTTP/1.1" 200 -
+[2017-06-11 15:00:43,690](INFO)werkzeug : 127.0.0.1 - - [11/Jun/2017 15:00:43] "GET /static/js/custom_js/sparkline/jquery.flot.spline.js HTTP/1.1" 200 -
+[2017-06-11 15:00:43,696](INFO)werkzeug : 127.0.0.1 - - [11/Jun/2017 15:00:43] "GET /static/vendors/flip/js/jquery.flip.min.js HTTP/1.1" 200 -
+[2017-06-11 15:00:43,702](INFO)werkzeug : 127.0.0.1 - - [11/Jun/2017 15:00:43] "GET /static/vendors/lcswitch/js/lc_switch.min.js HTTP/1.1" 200 -
+[2017-06-11 15:00:43,708](INFO)werkzeug : 127.0.0.1 - - [11/Jun/2017 15:00:43] "GET /static/vendors/flotchart/js/jquery.flot.js HTTP/1.1" 200 -
+[2017-06-11 15:00:43,714](INFO)werkzeug : 127.0.0.1 - - [11/Jun/2017 15:00:43] "GET /static/vendors/flotchart/js/jquery.flot.resize.js HTTP/1.1" 200 -
+[2017-06-11 15:00:43,719](INFO)werkzeug : 127.0.0.1 - - [11/Jun/2017 15:00:43] "GET /static/vendors/flotchart/js/jquery.flot.stack.js HTTP/1.1" 200 -
+[2017-06-11 15:00:43,723](INFO)werkzeug : 127.0.0.1 - - [11/Jun/2017 15:00:43] "GET /static/vendors/flotspline/js/jquery.flot.spline.min.js HTTP/1.1" 200 -
+[2017-06-11 15:00:43,728](INFO)werkzeug : 127.0.0.1 - - [11/Jun/2017 15:00:43] "GET /static/vendors/flot.tooltip/js/jquery.flot.tooltip.js HTTP/1.1" 200 -
+[2017-06-11 15:00:43,737](INFO)werkzeug : 127.0.0.1 - - [11/Jun/2017 15:00:43] "GET /static/vendors/swiper/js/swiper.min.js HTTP/1.1" 200 -
+[2017-06-11 15:00:43,739](INFO)werkzeug : 127.0.0.1 - - [11/Jun/2017 15:00:43] "GET /static/vendors/chartjs/js/Chart.js HTTP/1.1" 200 -
+[2017-06-11 15:00:43,743](INFO)werkzeug : 127.0.0.1 - - [11/Jun/2017 15:00:43] "GET /static/js/nvd3/d3.v3.min.js HTTP/1.1" 200 -
+[2017-06-11 15:00:43,746](INFO)werkzeug : 127.0.0.1 - - [11/Jun/2017 15:00:43] "GET /static/vendors/nvd3/js/nv.d3.min.js HTTP/1.1" 200 -
+[2017-06-11 15:00:43,749](INFO)werkzeug : 127.0.0.1 - - [11/Jun/2017 15:00:43] "GET /static/vendors/moment/js/moment.min.js HTTP/1.1" 200 -
+[2017-06-11 15:00:43,751](INFO)werkzeug : 127.0.0.1 - - [11/Jun/2017 15:00:43] "GET /static/vendors/advanced_newsTicker/js/newsTicker.js HTTP/1.1" 200 -
+[2017-06-11 15:00:43,753](INFO)werkzeug : 127.0.0.1 - - [11/Jun/2017 15:00:43] "GET /static/js/dashboard1.js HTTP/1.1" 200 -
+[2017-06-11 15:00:43,756](INFO)werkzeug : 127.0.0.1 - - [11/Jun/2017 15:00:43] "GET /static/vendors/Buttons/js/buttons.js HTTP/1.1" 200 -
+[2017-06-11 15:00:43,758](INFO)werkzeug : 127.0.0.1 - - [11/Jun/2017 15:00:43] "GET /static/vendors/laddabootstrap/js/spin.min.js HTTP/1.1" 200 -
+[2017-06-11 15:00:43,760](INFO)werkzeug : 127.0.0.1 - - [11/Jun/2017 15:00:43] "GET /static/vendors/laddabootstrap/js/ladda.min.js HTTP/1.1" 200 -
+[2017-06-11 15:00:43,762](INFO)werkzeug : 127.0.0.1 - - [11/Jun/2017 15:00:43] "GET /static/js/custom_js/button_main.js HTTP/1.1" 200 -
+[2017-06-11 15:00:43,764](INFO)werkzeug : 127.0.0.1 - - [11/Jun/2017 15:00:43] "GET /static/vendors/datatables/js/jquery.dataTables.js HTTP/1.1" 200 -
+[2017-06-11 15:00:43,769](INFO)werkzeug : 127.0.0.1 - - [11/Jun/2017 15:00:43] "GET /static/vendors/datatables/js/dataTables.bootstrap.js HTTP/1.1" 200 -
+[2017-06-11 15:00:43,771](INFO)werkzeug : 127.0.0.1 - - [11/Jun/2017 15:00:43] "GET /static/vendors/datatables/js/dataTables.buttons.js HTTP/1.1" 200 -
+[2017-06-11 15:00:43,774](INFO)werkzeug : 127.0.0.1 - - [11/Jun/2017 15:00:43] "GET /static/vendors/datatables/js/dataTables.colReorder.js HTTP/1.1" 200 -
+[2017-06-11 15:00:43,776](INFO)werkzeug : 127.0.0.1 - - [11/Jun/2017 15:00:43] "GET /static/vendors/datatables/js/dataTables.responsive.js HTTP/1.1" 200 -
+[2017-06-11 15:00:43,779](INFO)werkzeug : 127.0.0.1 - - [11/Jun/2017 15:00:43] "GET /static/vendors/datatables/js/dataTables.rowReorder.js HTTP/1.1" 200 -
+[2017-06-11 15:00:43,781](INFO)werkzeug : 127.0.0.1 - - [11/Jun/2017 15:00:43] "GET /static/vendors/datatables/js/buttons.colVis.js HTTP/1.1" 200 -
+[2017-06-11 15:00:43,784](INFO)werkzeug : 127.0.0.1 - - [11/Jun/2017 15:00:43] "GET /static/vendors/datatables/js/buttons.html5.js HTTP/1.1" 200 -
+[2017-06-11 15:00:43,786](INFO)werkzeug : 127.0.0.1 - - [11/Jun/2017 15:00:43] "GET /static/vendors/datatables/js/buttons.bootstrap.js HTTP/1.1" 200 -
+[2017-06-11 15:00:43,788](INFO)werkzeug : 127.0.0.1 - - [11/Jun/2017 15:00:43] "GET /static/vendors/datatables/js/buttons.print.js HTTP/1.1" 200 -
+[2017-06-11 15:00:43,791](INFO)werkzeug : 127.0.0.1 - - [11/Jun/2017 15:00:43] "GET /static/vendors/datatables/js/dataTables.scroller.js HTTP/1.1" 200 -
+[2017-06-11 15:00:43,793](INFO)werkzeug : 127.0.0.1 - - [11/Jun/2017 15:00:43] "GET /static/js/custom_js/advanced_datatables.js HTTP/1.1" 200 -
+[2017-06-11 15:00:43,795](INFO)werkzeug : 127.0.0.1 - - [11/Jun/2017 15:00:43] "GET /static/img/loader.gif HTTP/1.1" 200 -
+[2017-06-11 15:00:43,947](INFO)werkzeug : 127.0.0.1 - - [11/Jun/2017 15:00:43] "GET /static/fonts/themify.woff HTTP/1.1" 404 -
+[2017-06-11 15:00:44,205](INFO)werkzeug : 127.0.0.1 - - [11/Jun/2017 15:00:44] "GET /static/vendors/flip/js/jquery.flip.min.js.map HTTP/1.1" 404 -
+[2017-06-11 15:00:44,208](INFO)werkzeug : 127.0.0.1 - - [11/Jun/2017 15:00:44] "GET /static/vendors/swiper/js/maps/swiper.min.js.map HTTP/1.1" 404 -
+[2017-06-11 15:00:44,209](INFO)werkzeug : 127.0.0.1 - - [11/Jun/2017 15:00:44] "GET /static/vendors/nvd3/js/nv.d3.min.js.map HTTP/1.1" 404 -
+[2017-06-11 15:00:44,247](INFO)werkzeug : 127.0.0.1 - - [11/Jun/2017 15:00:44] "GET /static/vendors/nvd3/css/nv.d3.min.css.map HTTP/1.1" 404 -
+[2017-06-11 15:00:44,269](INFO)werkzeug : 127.0.0.1 - - [11/Jun/2017 15:00:44] "GET /static/fonts/themify.ttf HTTP/1.1" 404 -
+[2017-06-11 15:02:15,951](INFO)werkzeug : 127.0.0.1 - - [11/Jun/2017 15:02:15] "GET /enterprise/ HTTP/1.1" 200 -
+[2017-06-11 15:02:16,026](INFO)werkzeug : 127.0.0.1 - - [11/Jun/2017 15:02:16] "GET /static/css/app.css HTTP/1.1" 200 -
+[2017-06-11 15:02:16,030](INFO)werkzeug : 127.0.0.1 - - [11/Jun/2017 15:02:16] "GET /static/vendors/swiper/css/swiper.min.css HTTP/1.1" 200 -
+[2017-06-11 15:02:16,032](INFO)werkzeug : 127.0.0.1 - - [11/Jun/2017 15:02:16] "GET /static/vendors/nvd3/css/nv.d3.min.css HTTP/1.1" 200 -
+[2017-06-11 15:02:16,034](INFO)werkzeug : 127.0.0.1 - - [11/Jun/2017 15:02:16] "GET /static/vendors/lcswitch/css/lc_switch.css HTTP/1.1" 200 -
+[2017-06-11 15:02:16,036](INFO)werkzeug : 127.0.0.1 - - [11/Jun/2017 15:02:16] "GET /static/css/custom.css HTTP/1.1" 200 -
+[2017-06-11 15:02:16,038](INFO)werkzeug : 127.0.0.1 - - [11/Jun/2017 15:02:16] "GET /static/css/custom_css/dashboard1.css HTTP/1.1" 200 -
+[2017-06-11 15:02:16,040](INFO)werkzeug : 127.0.0.1 - - [11/Jun/2017 15:02:16] "GET /static/css/custom_css/dashboard1_timeline.css HTTP/1.1" 200 -
+[2017-06-11 15:02:16,042](INFO)werkzeug : 127.0.0.1 - - [11/Jun/2017 15:02:16] "GET /static/css/buttons_sass.css HTTP/1.1" 200 -
+[2017-06-11 15:02:16,046](INFO)werkzeug : 127.0.0.1 - - [11/Jun/2017 15:02:16] "GET /static/css/advbuttons.css HTTP/1.1" 200 -
+[2017-06-11 15:02:16,049](INFO)werkzeug : 127.0.0.1 - - [11/Jun/2017 15:02:16] "GET /static/vendors/datatables/css/dataTables.bootstrap.css HTTP/1.1" 200 -
+[2017-06-11 15:02:16,052](INFO)werkzeug : 127.0.0.1 - - [11/Jun/2017 15:02:16] "GET /static/vendors/datatables/css/buttons.bootstrap.css HTTP/1.1" 200 -
+[2017-06-11 15:02:16,055](INFO)werkzeug : 127.0.0.1 - - [11/Jun/2017 15:02:16] "GET /static/vendors/datatables/css/colReorder.bootstrap.css HTTP/1.1" 200 -
+[2017-06-11 15:02:16,057](INFO)werkzeug : 127.0.0.1 - - [11/Jun/2017 15:02:16] "GET /static/vendors/datatables/css/rowReorder.bootstrap.css HTTP/1.1" 200 -
+[2017-06-11 15:02:16,061](INFO)werkzeug : 127.0.0.1 - - [11/Jun/2017 15:02:16] "GET /static/vendors/datatables/css/scroller.bootstrap.css HTTP/1.1" 200 -
+[2017-06-11 15:02:16,064](INFO)werkzeug : 127.0.0.1 - - [11/Jun/2017 15:02:16] "GET /static/js/app.js HTTP/1.1" 200 -
+[2017-06-11 15:02:16,145](INFO)werkzeug : 127.0.0.1 - - [11/Jun/2017 15:02:16] "GET /static/js/custom_js/sparkline/jquery.flot.spline.js HTTP/1.1" 200 -
+[2017-06-11 15:02:16,150](INFO)werkzeug : 127.0.0.1 - - [11/Jun/2017 15:02:16] "GET /static/vendors/flip/js/jquery.flip.min.js HTTP/1.1" 200 -
+[2017-06-11 15:02:16,152](INFO)werkzeug : 127.0.0.1 - - [11/Jun/2017 15:02:16] "GET /static/vendors/lcswitch/js/lc_switch.min.js HTTP/1.1" 200 -
+[2017-06-11 15:02:16,154](INFO)werkzeug : 127.0.0.1 - - [11/Jun/2017 15:02:16] "GET /static/vendors/flotchart/js/jquery.flot.js HTTP/1.1" 200 -
+[2017-06-11 15:02:16,158](INFO)werkzeug : 127.0.0.1 - - [11/Jun/2017 15:02:16] "GET /static/vendors/flotchart/js/jquery.flot.resize.js HTTP/1.1" 200 -
+[2017-06-11 15:02:16,160](INFO)werkzeug : 127.0.0.1 - - [11/Jun/2017 15:02:16] "GET /static/vendors/flotchart/js/jquery.flot.stack.js HTTP/1.1" 200 -
+[2017-06-11 15:02:16,163](INFO)werkzeug : 127.0.0.1 - - [11/Jun/2017 15:02:16] "GET /static/vendors/flotspline/js/jquery.flot.spline.min.js HTTP/1.1" 200 -
+[2017-06-11 15:02:16,167](INFO)werkzeug : 127.0.0.1 - - [11/Jun/2017 15:02:16] "GET /static/vendors/flot.tooltip/js/jquery.flot.tooltip.js HTTP/1.1" 200 -
+[2017-06-11 15:02:16,171](INFO)werkzeug : 127.0.0.1 - - [11/Jun/2017 15:02:16] "GET /static/vendors/swiper/js/swiper.min.js HTTP/1.1" 200 -
+[2017-06-11 15:02:16,174](INFO)werkzeug : 127.0.0.1 - - [11/Jun/2017 15:02:16] "GET /static/vendors/chartjs/js/Chart.js HTTP/1.1" 200 -
+[2017-06-11 15:02:16,181](INFO)werkzeug : 127.0.0.1 - - [11/Jun/2017 15:02:16] "GET /static/js/nvd3/d3.v3.min.js HTTP/1.1" 200 -
+[2017-06-11 15:02:16,185](INFO)werkzeug : 127.0.0.1 - - [11/Jun/2017 15:02:16] "GET /static/vendors/nvd3/js/nv.d3.min.js HTTP/1.1" 200 -
+[2017-06-11 15:02:16,188](INFO)werkzeug : 127.0.0.1 - - [11/Jun/2017 15:02:16] "GET /static/vendors/moment/js/moment.min.js HTTP/1.1" 200 -
+[2017-06-11 15:02:16,190](INFO)werkzeug : 127.0.0.1 - - [11/Jun/2017 15:02:16] "GET /static/vendors/advanced_newsTicker/js/newsTicker.js HTTP/1.1" 200 -
+[2017-06-11 15:02:16,193](INFO)werkzeug : 127.0.0.1 - - [11/Jun/2017 15:02:16] "GET /static/js/dashboard1.js HTTP/1.1" 200 -
+[2017-06-11 15:02:16,195](INFO)werkzeug : 127.0.0.1 - - [11/Jun/2017 15:02:16] "GET /static/vendors/Buttons/js/buttons.js HTTP/1.1" 200 -
+[2017-06-11 15:02:16,197](INFO)werkzeug : 127.0.0.1 - - [11/Jun/2017 15:02:16] "GET /static/vendors/laddabootstrap/js/spin.min.js HTTP/1.1" 200 -
+[2017-06-11 15:02:16,201](INFO)werkzeug : 127.0.0.1 - - [11/Jun/2017 15:02:16] "GET /static/vendors/laddabootstrap/js/ladda.min.js HTTP/1.1" 200 -
+[2017-06-11 15:02:16,202](INFO)werkzeug : 127.0.0.1 - - [11/Jun/2017 15:02:16] "GET /static/js/custom_js/button_main.js HTTP/1.1" 200 -
+[2017-06-11 15:02:16,204](INFO)werkzeug : 127.0.0.1 - - [11/Jun/2017 15:02:16] "GET /static/vendors/datatables/js/jquery.dataTables.js HTTP/1.1" 200 -
+[2017-06-11 15:02:16,210](INFO)werkzeug : 127.0.0.1 - - [11/Jun/2017 15:02:16] "GET /static/vendors/datatables/js/dataTables.bootstrap.js HTTP/1.1" 200 -
+[2017-06-11 15:02:16,212](INFO)werkzeug : 127.0.0.1 - - [11/Jun/2017 15:02:16] "GET /static/vendors/datatables/js/dataTables.buttons.js HTTP/1.1" 200 -
+[2017-06-11 15:02:16,215](INFO)werkzeug : 127.0.0.1 - - [11/Jun/2017 15:02:16] "GET /static/vendors/datatables/js/dataTables.colReorder.js HTTP/1.1" 200 -
+[2017-06-11 15:02:16,217](INFO)werkzeug : 127.0.0.1 - - [11/Jun/2017 15:02:16] "GET /static/vendors/datatables/js/dataTables.responsive.js HTTP/1.1" 200 -
+[2017-06-11 15:02:16,225](INFO)werkzeug : 127.0.0.1 - - [11/Jun/2017 15:02:16] "GET /static/vendors/datatables/js/dataTables.rowReorder.js HTTP/1.1" 200 -
+[2017-06-11 15:02:16,227](INFO)werkzeug : 127.0.0.1 - - [11/Jun/2017 15:02:16] "GET /static/vendors/datatables/js/buttons.colVis.js HTTP/1.1" 200 -
+[2017-06-11 15:02:16,239](INFO)werkzeug : 127.0.0.1 - - [11/Jun/2017 15:02:16] "GET /static/vendors/datatables/js/buttons.html5.js HTTP/1.1" 200 -
+[2017-06-11 15:02:16,241](INFO)werkzeug : 127.0.0.1 - - [11/Jun/2017 15:02:16] "GET /static/vendors/datatables/js/buttons.bootstrap.js HTTP/1.1" 200 -
+[2017-06-11 15:02:16,244](INFO)werkzeug : 127.0.0.1 - - [11/Jun/2017 15:02:16] "GET /static/vendors/datatables/js/buttons.print.js HTTP/1.1" 200 -
+[2017-06-11 15:02:16,246](INFO)werkzeug : 127.0.0.1 - - [11/Jun/2017 15:02:16] "GET /static/vendors/datatables/js/dataTables.scroller.js HTTP/1.1" 200 -
+[2017-06-11 15:02:16,249](INFO)werkzeug : 127.0.0.1 - - [11/Jun/2017 15:02:16] "GET /static/js/custom_js/advanced_datatables.js HTTP/1.1" 200 -
+[2017-06-11 15:02:16,251](INFO)werkzeug : 127.0.0.1 - - [11/Jun/2017 15:02:16] "GET /static/img/loader.gif HTTP/1.1" 200 -
+[2017-06-11 15:02:16,517](INFO)werkzeug : 127.0.0.1 - - [11/Jun/2017 15:02:16] "GET /static/fonts/themify.woff HTTP/1.1" 404 -
+[2017-06-11 15:02:16,806](INFO)werkzeug : 127.0.0.1 - - [11/Jun/2017 15:02:16] "GET /static/vendors/flip/js/jquery.flip.min.js.map HTTP/1.1" 404 -
+[2017-06-11 15:02:16,809](INFO)werkzeug : 127.0.0.1 - - [11/Jun/2017 15:02:16] "GET /static/vendors/swiper/js/maps/swiper.min.js.map HTTP/1.1" 404 -
+[2017-06-11 15:02:16,810](INFO)werkzeug : 127.0.0.1 - - [11/Jun/2017 15:02:16] "GET /static/vendors/nvd3/js/nv.d3.min.js.map HTTP/1.1" 404 -
+[2017-06-11 15:02:16,843](INFO)werkzeug : 127.0.0.1 - - [11/Jun/2017 15:02:16] "GET /static/vendors/nvd3/css/nv.d3.min.css.map HTTP/1.1" 404 -
+[2017-06-11 15:02:16,866](INFO)werkzeug : 127.0.0.1 - - [11/Jun/2017 15:02:16] "GET /static/fonts/themify.ttf HTTP/1.1" 404 -
+[2017-06-11 15:02:33,582](INFO)werkzeug : 127.0.0.1 - - [11/Jun/2017 15:02:33] "GET /static/vendors/flip/js/jquery.flip.min.js.map HTTP/1.1" 404 -
+[2017-06-11 15:02:33,587](INFO)werkzeug : 127.0.0.1 - - [11/Jun/2017 15:02:33] "GET /static/vendors/swiper/js/maps/swiper.min.js.map HTTP/1.1" 404 -
+[2017-06-11 15:02:33,588](INFO)werkzeug : 127.0.0.1 - - [11/Jun/2017 15:02:33] "GET /static/vendors/nvd3/js/nv.d3.min.js.map HTTP/1.1" 404 -
+[2017-06-11 15:02:33,703](INFO)werkzeug : 127.0.0.1 - - [11/Jun/2017 15:02:33] "GET /static/vendors/nvd3/css/nv.d3.min.css.map HTTP/1.1" 404 -

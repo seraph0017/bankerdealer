@@ -15,5 +15,3 @@ admin.add_view(ModelView(ShareHolder, db.session))
 
 
 
-
-admin.add_view(ModelView(UserBindRole, db.session))

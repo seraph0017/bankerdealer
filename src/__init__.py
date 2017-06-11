@@ -2,13 +2,14 @@
 #encoding:utf-8
 
 import yaml
-from flask import Flask, jsonify, g
+from flask import Flask, jsonify, g, request
 
 from config import settings
 
 from src.ext import db
 from src.admin import admin
 from src.views.administrator import administrator
+from src.views.enterprise import enterprise
 
 
 
@@ -18,6 +19,7 @@ DEFAULT_APP_NAME = settings.PROJECT_NAME
 
 DEFAULT_MODULES = (
         (administrator,'/administrator'),
+        (enterprise,'/enterprise'),
         )
 
 
@@ -31,6 +33,7 @@ def create_app(app_name=None, modules = None):
     configure_exts(app)
     configure_modules(app, modules)
     configure_before_handlers(app)
+    configure_logout(app)
     return app
 
 
@@ -39,6 +42,12 @@ def create_app(app_name=None, modules = None):
 def configure_conf(app):
     app.config.from_pyfile('config/settings.py')
 
+
+def configure_logout(app):
+
+    @app.route('/logout')
+    def logout_handler():
+        request.cookies.pop(settings.AUTH_KEY, None)
 
 
 def configure_errorhandlers(app):
@@ -53,7 +62,7 @@ def configure_errorhandlers(app):
 
 def configure_modules(app,modules):
     for module, url_prefix in modules:
-        app.register_blueprint(module,url_prefix="/v1{}".format(url_prefix))
+        app.register_blueprint(module,url_prefix=url_prefix)
 
 
 
@@ -61,7 +70,9 @@ def configure_before_handlers(app):
 
     @app.before_request
     def auth():
-        #TODO
+        g.menus = [
+            {'name': u'申请列表','href': '/enterprise'}
+        ]
         g.user = ''
 
 

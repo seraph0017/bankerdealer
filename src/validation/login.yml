@@ -1,0 +1,8 @@
+login:
+  username:
+    required: True
+  password:
+    required: True
+  returnvalue:
+    - username
+    - password

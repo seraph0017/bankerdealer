@@ -2,7 +2,7 @@
 #encoding:utf-8
 
 from flask import current_app
-from flask.ext.script import Manager, Server, Shell
+from flask_script import Manager, Server, Shell
 
 from src import create_app
 from src.models import *
@@ -39,19 +39,23 @@ def createdb():
     dadd([r1, r2, r3])
     #----------------------------------------------------------
 
-    u1 = User(name=u'张三', password=User.gen_password('1q2w3e4r'))
-    u2 = User(name=u'李四', password=User.gen_password('1q2w3e4r'))
-    u3 = User(name=u'王麻子', password=User.gen_password('1q2w3e4r'))
+    u1 = User(name=u'seraph0017@hotmail.com', password=User.gen_password('1q2w3e4r'), role_id = r1.id)
+    u2 = User(name=u'372499885@qq.com', password=User.gen_password('1q2w3e4r'), role_id = r2.id)
+    u3 = User(name=u'jjrddu@qq.com', password=User.gen_password('1q2w3e4r'), role_id = r3.id)
 
-    ubr1 = UserBindRole(user_id = u1.id, role_id = r1.id)
-    ubr2 = UserBindRole(user_id = u2.id, role_id = r2.id)
-    ubr3 = UserBindRole(user_id = u3.id, role_id = r3.id)
+    dadd([u1, u2, u3])
 
-    dadd([ubr1, ubr2, ubr3])
+
 
 @manager.command
 def dropdb():
     db.drop_all()
+
+
+@manager.command
+def initdb():
+    dropdb()
+    createdb()
 
 if __name__ == "__main__":
     manager.run()
