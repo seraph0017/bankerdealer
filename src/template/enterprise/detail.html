@@ -1,0 +1,76 @@
+{% extends "__layout.html" %}
+
+{% block css_extention %}
+<link rel="stylesheet" type="text/css" href="{{url_for('static', filename='vendors/datatables/css/dataTables.bootstrap.css')}}"/>
+<link rel="stylesheet" type="text/css" href="{{url_for('static', filename='vendors/datatables/css/buttons.bootstrap.css')}}"/>
+<link rel="stylesheet" type="text/css" href="{{url_for('static', filename='vendors/datatables/css/colReorder.bootstrap.css')}}"/>
+<link rel="stylesheet" type="text/css" href="{{url_for('static', filename='vendors/datatables/css/dataTables.bootstrap.css')}}"/>
+<link rel="stylesheet" type="text/css" href="{{url_for('static', filename='vendors/datatables/css/rowReorder.bootstrap.css')}}"/>
+<link rel="stylesheet" type="text/css" href="{{url_for('static', filename='vendors/datatables/css/buttons.bootstrap.css')}}">
+<link rel="stylesheet" type="text/css" href="{{url_for('static', filename='vendors/datatables/css/scroller.bootstrap.css')}}">
+<link rel="stylesheet" type="text/css" href="{{url_for('static', filename='css/custom.css')}}">
+{% endblock %}
+
+{% block content %}
+<div class="row">
+    <div class="col-lg-12">
+        <div class="panel">
+            <div class="panel-heading">
+                <h3 class="panel-title"><i class="fa fa-fw ti-pencil"></i>基本信息</h3>
+                <span class="pull-right hidden-xs">
+                    <i class="fa fa-fw ti-angle-up clickable"></i>
+                    <i class="fa fa-fw ti-close removepanel clickable"></i>
+                </span>
+            </div>
+            <div class="panel-body">
+                <form action="" class="form-horizontal" method="POST">
+                    <div class="form-body">
+                        <h5>概况</h5>
+                        <hr/>
+                        {%if company%}
+                            {{render_input("公司名称", "name", "name", "公司名称", company.name)}}
+                            {{render_input("统一社会信用代码", "credit_code", "credit_code", "统一社会信用代码", company.credit_code)}}
+                            {{render_input("注册地址", "register_addr", "register_addr", "注册地址", company.register_addr)}}
+                            {{render_input("注册资本", "register_capital", "register_capital", "注册资本", company.register_capital)}}
+                            {{render_input("法定代表人", "representative", "representative", "法定代表人", company.representative)}}
+                            {{render_input("成立日期", "establish_time", "establish_time", "成立日期", company.establish_time)}}
+                            {{render_textarea("经营范围", "business_scope", "business_scope", company.business_scope)}}
+                        {%else%}
+                            {render_input("公司名称", "name", "name", "公司名称")}}
+                            {{render_input("统一社会信用代码", "credit_code", "credit_code", "统一社会信用代码")}}
+                            {{render_input("注册地址", "register_addr", "register_addr", "注册地址")}}
+                            {{render_input("注册资本", "register_capital", "register_capital", "注册资本")}}
+                            {{render_input("法定代表人", "representative", "representative", "法定代表人")}}
+                            {{render_input("成立日期", "establish_time", "establish_time", "成立日期")}}
+                            {{render_textarea("经营范围", "business_scope", "business_scope")}}
+                        {%endif%}
+                        <div class="form-actions">
+                            <div class="row">
+                                <div class="col-sm-12 text-center">
+                                    <button type="submit" class="btn btn-primary">提交
+                                    </button>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </form>
+            </div>
+        </div>
+    </div>
+</div>
+{% endblock %}
+
+{% block js_extention %}
+<script type="text/javascript" src="{{url_for('static', filename='vendors/datatables/js/jquery.dataTables.js')}}"></script>
+<script type="text/javascript" src="{{url_for('static', filename='vendors/datatables/js/dataTables.bootstrap.js')}}"></script>
+<script type="text/javascript" src="{{url_for('static', filename='vendors/datatables/js/dataTables.buttons.js')}}"></script>
+<script type="text/javascript" src="{{url_for('static', filename='vendors/datatables/js/dataTables.colReorder.js')}}"></script>
+<script type="text/javascript" src="{{url_for('static', filename='vendors/datatables/js/dataTables.responsive.js')}}"></script>
+<script type="text/javascript" src="{{url_for('static', filename='vendors/datatables/js/dataTables.rowReorder.js')}}"></script>
+<script type="text/javascript" src="{{url_for('static', filename='vendors/datatables/js/buttons.colVis.js')}}"></script>
+<script type="text/javascript" src="{{url_for('static', filename='vendors/datatables/js/buttons.html5.js')}}"></script>
+<script type="text/javascript" src="{{url_for('static', filename='vendors/datatables/js/buttons.bootstrap.js')}}"></script>
+<script type="text/javascript" src="{{url_for('static', filename='vendors/datatables/js/buttons.print.js')}}"></script>
+<script type="text/javascript" src="{{url_for('static', filename='vendors/datatables/js/dataTables.scroller.js')}}"></script>
+<script src="{{url_for('static', filename='js/custom_js/advanced_datatables.js')}}" type="text/javascript"></script>
+{% endblock %}

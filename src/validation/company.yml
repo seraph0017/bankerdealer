@@ -1,0 +1,28 @@
+add_company:
+    name:
+      required: True
+      max_length: 16
+      min_length: 1
+    credit_code:
+      required: True
+    register_addr:
+      required: True
+    register_capital:
+      required: True
+    representative:
+      required: True
+    establish_time:
+      required: True
+    business_scope:
+      required: True
+    returnvalue:
+      - name
+      - credit_code
+      - register_addr
+      - register_capital
+      - representative
+      - establish_time
+      - business_scope
+
+    
+      

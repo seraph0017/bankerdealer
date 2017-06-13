@@ -15,6 +15,7 @@ def required(rolename):
         def _(*args, **kwargs):
             jwt = request.cookies.get(AUTH_KEY)
             if jwt:
+                info = {}
                 try:
                     info = AuthBusiness.jwt_decode(jwt)
                 except Exception as e:

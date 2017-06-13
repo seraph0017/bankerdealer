@@ -12,7 +12,6 @@ class Company(EntityModel):
     credit_code = db.Column(db.Integer)
     register_addr = db.Column(db.String(120))
     register_capital = db.Column(db.String(120))
-    register_capital = db.Column(db.String(120))
     representative = db.Column(db.String(120))
-    establish_time = db.Column(db.DateTime)
+    establish_time = db.Column(db.String(120))
     business_scope = db.Column(db.Text)

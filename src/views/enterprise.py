@@ -33,3 +33,16 @@ def login_handler():
 @required('enterprise')
 def index_handler():
     return render_template('enterprise/list.html', menus = g.menus)
+
+
+
+@enterprise.route('/<int:enterprise_id>', methods = ['GET', 'POST'])
+@required('enterprise')
+@validation('POST:add_company')
+def detail_handler(enterprise_id):
+    company = CompanyBusiness.get_by_id(enterprise_id)
+    if request.method == 'POST':
+        info = parse_form('add_company')
+        CompanyBusiness.save(info)
+        return render_template('enterprise/detail.html', menus = g.menus, company=company)
+    return render_template('enterprise/detail.html', menus = g.menus, company=company)
