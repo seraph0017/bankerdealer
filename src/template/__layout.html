@@ -41,7 +41,9 @@
                     </a>
                 </div>
                 <div class="pull-right">
+                    {%block logout%}
                     <button class='button button-pill button-action-flat hvr-pulse' href="{{url_for('logout_handler')}}">退出登录</button>
+                    {%endblock%}
                 </div>
             </nav>
         </header>

@@ -28,6 +28,11 @@ def login_handler():
     return render_template('login.html', **locals())
 
 
+@enterprise.route('/logout')
+def logout_handler():
+    resp = make_response(redirect(url_for('enterprise.login_handler')))
+    resp.set_cookie(AUTH_KEY, "")
+    return resp
 
 @enterprise.route('/')
 @required('enterprise')
@@ -43,6 +48,16 @@ def detail_handler(enterprise_id):
     company = CompanyBusiness.get_by_id(enterprise_id)
     if request.method == 'POST':
         info = parse_form('add_company')
+        info.update(dict(user_id=enterprise_id))
         CompanyBusiness.save(info)
-        return render_template('enterprise/detail.html', menus = g.menus, company=company)
-    return render_template('enterprise/detail.html', menus = g.menus, company=company)
+        return render_template('enterprise/detail.html',user_id = enterprise_id, menus = g.menus, company=company)
+    return render_template('enterprise/detail.html',user_id = enterprise_id, menus = g.menus, company=company)
+
+
+
+
+
+
+
+
+

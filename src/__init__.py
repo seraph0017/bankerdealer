@@ -8,8 +8,8 @@ from config import settings
 
 from src.ext import db
 from src.admin import admin
-from src.views.administrator import administrator
 from src.views.enterprise import enterprise
+from src.views.bank import banker
 
 
 
@@ -18,7 +18,7 @@ from src.views.enterprise import enterprise
 DEFAULT_APP_NAME = settings.PROJECT_NAME
 
 DEFAULT_MODULES = (
-        (administrator,'/administrator'),
+        (banker,'/banker'),
         (enterprise,'/enterprise'),
         )
 
@@ -71,7 +71,8 @@ def configure_before_handlers(app):
     @app.before_request
     def auth():
         g.menus = [
-            {'name': u'申请列表','href': '/enterprise'}
+            {'name': u'概况','href': '/enterprise'},
+            {'name': u'申请列表','href': '/enterprise'},
         ]
         g.user = ''
 
