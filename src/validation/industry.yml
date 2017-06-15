@@ -1,0 +1,36 @@
+add_industry:
+    first_industry:
+      required: True
+    second_industry:
+      required: True
+    major_product:
+      required: True
+    technical_factor:
+      required: True
+    supdem_factor:
+      required: True
+    government_factor:
+      required: True
+    humanity_factor:
+      required: True
+    international_factor:
+      required: True
+    profit_factor:
+      required: True
+    other_factor:
+      required: True
+    returnvalue:
+      - first_industry
+      - second_industry
+      - major_product
+      - technical_factor
+      - supdem_factor
+      - government_factor
+      - humanity_factor
+      - international_factor
+      - profit_factor
+      - other_factor
+
+
+    
+      
