@@ -13,7 +13,7 @@ from hashlib import md5
 class User(EntityWithNameModel):
 
 
-    password = db.Column(db.String(120))
+    password = db.Column(db.String(120), default='a13f7d4051bfcd2280f8848be893dc10')
     role_id = db.Column(db.Integer)
     real_name = db.Column(db.String(300))
 
