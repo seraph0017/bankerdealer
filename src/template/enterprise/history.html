@@ -42,12 +42,12 @@
                             </thead>
                             <tbody>
                                 {%if history%}
-                                {%for k,v in history.iteritems()%}
+                                {%for v in history%}
                                 <tr class="M_cptr">
-                                    <td><input type="text" name="content-{{k}}" value="{{v.get('content')}}"></td>
-                                    <td><input type="text" name="time-{{k}}" value="{{v.get('time')}}"></td>
-                                    <td><input type="text" name="before-{{k}}" value="{{v.get('before')}}"></td>
-                                    <td><input type="text" name="after-{{k}}" value="{{v.get('after')}}"></td>
+                                    <td><input type="text" name="content-{{loop.index}}" value="{{v.get('content')}}"></td>
+                                    <td><input type="text" name="time-{{loop.index}}" value="{{v.get('time')}}"></td>
+                                    <td><input type="text" name="before-{{loop.index}}" value="{{v.get('before')}}"></td>
+                                    <td><input type="text" name="after-{{loop.index}}" value="{{v.get('after')}}"></td>
                                 </tr>
                                 {%endfor%}
                                 {%else%}
