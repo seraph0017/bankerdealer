@@ -18,3 +18,4 @@ class Industry(EntityModel):
     profit_factor = db.Column(db.String(500))
     other_factor = db.Column(db.String(500))
     company_id = db.Column(db.Integer)
+    user_id = db.Column(db.Integer)

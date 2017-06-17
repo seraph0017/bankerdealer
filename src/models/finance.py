@@ -5,9 +5,10 @@ from src.models.basemodel import EntityModel
 from src.ext import db
 
 
-class Revenue(EntityModel):
+class Finance(EntityModel):
 
     profit_ability = db.Column(db.String(100))
     debtpay_ability = db.Column(db.String(100))
     cashflow_ability = db.Column(db.String(100))
     company_id = db.Column(db.Integer)
+    user_id = db.Column(db.Integer)

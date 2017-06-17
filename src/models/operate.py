@@ -12,3 +12,4 @@ class Operate(EntityModel):
     production_statement = db.Column(db.String(500))
     market_statement = db.Column(db.String(500))
     company_id = db.Column(db.Integer)
+    user_id = db.Column(db.Integer)
