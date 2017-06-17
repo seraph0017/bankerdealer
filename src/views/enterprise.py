@@ -5,7 +5,7 @@ from flask import Blueprint, request, render_template, \
     g, redirect, make_response, url_for, abort
 from src.misc.auth import required
 from src.misc.validation import validation
-from src.misc.parse import parse_form
+from src.misc.parse import parse_form, parse_history
 from src.business import *
 from config.settings import AUTH_KEY
 
@@ -40,18 +40,29 @@ def index_handler():
 
 
 
-@enterprise.route('/<int:enterprise_id>', methods = ['GET', 'POST'])
+@enterprise.route('/base', methods = ['GET', 'POST'])
 @required('enterprise')
 @validation('POST:add_company')
-def detail_handler(enterprise_id):
+def detail_handler():
+    enterprise_id = g.userid
     company = CompanyBusiness.get_by_id(enterprise_id)
     if request.method == 'POST':
         info = parse_form('add_company')
-        info.update(dict(user_id=enterprise_id))
+        info.update(dict(user_id=g.userid))
         CompanyBusiness.save(info)
         return render_template('enterprise/detail.html',user_id = enterprise_id, menus = g.menus, company=company)
     return render_template('enterprise/detail.html',user_id = enterprise_id, menus = g.menus, company=company)
 
+@enterprise.route('/history', methods = ['GET', 'POST'])
+@required('enterprise')
+def history_handler():
+    enterprise_id = g.userid
+    history = HistoryBusiness.get_by_id(enterprise_id)
+    if request.method == 'POST':
+        history = parse_history(request.form)
+        HistoryBusiness.save(history, g.userid)
+        return render_template('enterprise/history.html',user_id = enterprise_id, menus = g.menus, history=history)
+    return render_template('enterprise/history.html',user_id = enterprise_id, menus = g.menus, history=history)
 
 @enterprise.route('/industry', methods = ['GET', 'POST'])
 @required('enterprise')

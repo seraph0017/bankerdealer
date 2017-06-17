@@ -2,7 +2,8 @@
 #encoding:utf-8
 
 import yaml
-from flask import Flask, jsonify, g, request
+import jwt
+from flask import Flask, jsonify, g, request, abort, url_for
 
 from config import settings
 
@@ -71,10 +72,29 @@ def configure_before_handlers(app):
     @app.before_request
     def auth():
         g.menus = [
-            {'name': u'概况','href': '/enterprise'},
-            {'name': u'申请列表','href': '/enterprise'},
+            {'name': u'概况','href': url_for('enterprise.detail_handler')},
+            {'name': u'历史沿革','href': url_for('enterprise.history_handler')},
+            {'name': u'行业','href': url_for('enterprise.industry_handler')},
+            {'name': u'经营范围','href': url_for('enterprise.operate_handler')},
+            {'name': u'资产情况','href': url_for('enterprise.finance_handler')},
+            {'name': u'信用','href': url_for('enterprise.credit_handler')},
         ]
-        g.user = ''
+        cj = request.cookies.get(settings.AUTH_KEY)
+        g.role = ''
+        g.username = ''
+        g.userid = ''
+        if cj:
+            info = {}
+            try:
+                info = jwt.decode(cj, settings.SECRET)
+            except Exception as e:
+                abort(403)
+            g.role = info.get('role')
+            g.username = info.get('username')
+            g.userid = info.get('userid')
+
+
+
 
 
 def configure_exts(app):

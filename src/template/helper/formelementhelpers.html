@@ -31,3 +31,37 @@
     </div>
 </div>
 {%endmacro%}
+
+{%macro render_disable_input(label, id, name, placeholder, value='')%}
+<div class="form-group m-t-10">
+    <label for="{{id}}" class="col-sm-3 control-label">
+        {{label}}
+    </label>
+    <div class="col-sm-6">
+        <div class="input-group">
+            <span class="input-group-addon">
+            </span>
+            <input disabled="disabled" type="text" id="{{id}}"
+                    class="form-control"
+                    name="{{name}}"
+                    value="{{value}}"
+                    placeholder="{{placeholder}}">
+            </input>
+        </div>
+    </div>
+</div>
+{%endmacro%}
+
+
+
+{%macro render_disable_textarea(label, id, name, value="")%}
+<div class="form-group">
+    <label for="{{id}}" class="col-sm-3 control-label">{{label}}</label>
+    <div class="col-sm-6">
+    <textarea disabled="disabled" id="{{id}}" rows="3" name="{{name}}"
+                class="form-control resize_vertical">
+                {{value}}
+    </textarea>
+    </div>
+</div>
+{%endmacro%}

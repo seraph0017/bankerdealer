@@ -15,6 +15,7 @@ class User(EntityWithNameModel):
 
     password = db.Column(db.String(120))
     role_id = db.Column(db.Integer)
+    real_name = db.Column(db.String(300))
 
 
     @classmethod

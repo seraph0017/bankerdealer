@@ -1,6 +1,8 @@
 <!DOCTYPE html>
 {%from "helper/formelementhelpers.html" import render_input%}
 {%from "helper/formelementhelpers.html" import render_textarea%}
+{%from "helper/formelementhelpers.html" import render_disable_input%}
+{%from "helper/formelementhelpers.html" import render_disable_textarea%}
 <html lang="en">
     <head>
         <title>石</title>
@@ -75,6 +77,8 @@
 
 
         <script src="{{url_for('static', filename='js/app.js')}}" type="text/javascript"></script>
+        {% block js_extention %}
+        {% endblock %}
         <!-- end of global js -->
         <!-- begining of page level js -->
         <!--Sparkline Chart-->
@@ -101,7 +105,5 @@
         <script type="text/javascript" src="{{url_for('static', filename='vendors/laddabootstrap/js/ladda.min.js')}}"></script>
         <script type="text/javascript" src="{{url_for('static', filename='js/custom_js/button_main.js')}}"></script>
         <!-- end of page level js -->
-        {% block js_extention %}
-        {% endblock %}
     </body>
 </html>

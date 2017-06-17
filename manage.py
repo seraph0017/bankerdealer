@@ -33,15 +33,15 @@ def createdb():
     #固定配置 初始化
     #----------------------------------------------------------
     r1 = Role(name='administrator')
-    r2 = Role(name='bank')
+    r2 = Role(name='banker')
     r3 = Role(name='enterprise')
 
     dadd([r1, r2, r3])
     #----------------------------------------------------------
 
-    u1 = User(name=u'seraph0017@hotmail.com', password=User.gen_password('1q2w3e4r'), role_id = r1.id)
-    u2 = User(name=u'372499885@qq.com', password=User.gen_password('1q2w3e4r'), role_id = r2.id)
-    u3 = User(name=u'jjrddu@qq.com', password=User.gen_password('1q2w3e4r'), role_id = r3.id)
+    u1 = User(real_name=u"键盘侠骨骼专业医院", name=u'seraph0017@hotmail.com', password=User.gen_password('1q2w3e4r'), role_id = r1.id)
+    u2 = User(real_name=u"鼠标侠骨骼专业医院", name=u'372499885@qq.com', password=User.gen_password('1q2w3e4r'), role_id = r2.id)
+    u3 = User(real_name=u"德国制造骨骼专业医院", name=u'jjrddu@qq.com', password=User.gen_password('1q2w3e4r'), role_id = r3.id)
 
     dadd([u1, u2, u3])
 

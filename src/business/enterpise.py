@@ -11,5 +11,5 @@ class EnterpriseBusiness(object):
 
     @classmethod
     def get_list(cls):
-        return User.query.all()
+        return User.query.filter(User.role_id == 3).all()
 

@@ -9,3 +9,4 @@ from industry import IndustryBusiness
 from operate import OperateBusiness
 from finance import FinanceBusiness
 from credit import CredictBusiness
+from history import HistoryBusiness

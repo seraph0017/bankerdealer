@@ -32,7 +32,8 @@
                     <table class="table table-striped table-bordered table-hover">
                         <thead>
                             <tr>
-                                <th>公司名</th>
+                                <th>账号</th>
+                                <th>企业名</th>
                                 <th>下载</th>
                             </tr>
                         </thead>
@@ -41,6 +42,9 @@
                             <tr>
                                 <td>
                                     <a href="{{url_for('banker.detail_handler', enterprise_id = enterprise.id)}}">{{enterprise.name}}</a>
+                                </td>
+                                <td>
+                                    {{enterprise.real_name}}
                                 </td>
                                 <td>
                                     <a href="">下载</a>

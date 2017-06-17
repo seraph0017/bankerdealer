@@ -8,8 +8,5 @@ from src.ext import db
 class History(EntityModel):
 
 
-    content = db.Column(db.String(120))
-    change_time = db.Column(db.String(120))
-    change_before = db.Column(db.String(200))
-    change_after = db.Column(db.String(200))
-    company_id = db.Column(db.Integer)
+    content = db.Column(db.Text)
+    user_id = db.Column(db.Integer)
