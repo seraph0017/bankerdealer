@@ -8,8 +8,6 @@ from src.ext import db
 class CompanyBusiness(object):
 
 
-
-
     @classmethod
     def save(cls, info):
         ret = cls.get_by_id(info.get('user_id'))
@@ -23,8 +21,6 @@ class CompanyBusiness(object):
         db.session.add(ret)
         db.session.commit()
         return 0
-
-        
 
 
 

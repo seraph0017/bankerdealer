@@ -29,14 +29,20 @@ def login_handler():
 
 @banker.route('/logout')
 def logout_handler():
-    resp = make_response(redirect(url_for('enterprise.login_handler')))
+    resp = make_response(redirect(url_for('banker.login_handler')))
     resp.set_cookie(AUTH_KEY, "")
     return resp
 
 @banker.route('/')
 @required('bank')
 def index_handler():
-    return render_template('banker/list.html', menus = g.menus)
+    menus = [
+        dict(
+            name = u'申请列表',
+            href = '/banker/list'
+        )
+    ]
+    return render_template('banker/list.html', menus = menus, enterprise_list = enterprise_list)
 
 
 
