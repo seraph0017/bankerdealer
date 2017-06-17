@@ -42,6 +42,7 @@ def index_handler():
             href = '/banker/list'
         )
     ]
+    enterprise_list = EnterpriseBusiness.get_list()
     return render_template('banker/list.html', menus = menus, enterprise_list = enterprise_list)
 
 
