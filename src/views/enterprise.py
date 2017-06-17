@@ -27,7 +27,6 @@ def login_handler():
         abort(314)
     return render_template('login.html', **locals())
 
-
 @enterprise.route('/logout')
 def logout_handler():
     resp = make_response(redirect(url_for('enterprise.login_handler')))
@@ -54,10 +53,29 @@ def detail_handler(enterprise_id):
     return render_template('enterprise/detail.html',user_id = enterprise_id, menus = g.menus, company=company)
 
 
+@enterprise.route('/industry', methods = ['GET', 'POST'])
+@required('enterprise')
+@validation('POST:add_industry')
+def industry_handler():
+    return render_template('enterprise/industry.html', menus = g.menus, industry=industry)
 
 
+@enterprise.route('/operate', methods = ['GET', 'POST'])
+@required('enterprise')
+@validation('POST:add_operate')
+def operate_handler():
+    return render_template('enterprise/operate.html', menus = g.menus, operate=operate)
 
 
+@enterprise.route('/finance', methods = ['GET', 'POST'])
+@required('enterprise')
+@validation('POST:add_finance')
+def finance_handler():
+    return render_template('enterprise/finance.html', menus = g.menus, finance=finance)
 
 
-
+@enterprise.route('/credit', methods = ['GET', 'POST'])
+@required('enterprise')
+@validation('POST:add_credit')
+def credit_handler():
+    return render_template('enterprise/credit.html', menus = g.menus, credit=credit)

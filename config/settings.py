@@ -18,7 +18,7 @@ VALIDATE_YML_PATH               = join(PROJECT_PATH, 'src', 'validation')
 TEMPLATE_FOLDER                 = join(PROJECT_PATH, 'src', 'template')
 STATIC_FOLDER                   = join(PROJECT_PATH, 'src', 'static')
 SQLALCHEMY_TRACK_MODIFICATIONS  = False
-SQLALCHEMY_DATABASE_URI         = 'mysql://root:123456@127.0.0.1:3306/bankerdealer'
+SQLALCHEMY_DATABASE_URI         = 'mysql://root:12080@127.0.0.1:3306/bankerdealer'
 AUTH_KEY                        = 'Authorization'
 SECRET_KEY                      = 'shizifan'
 
