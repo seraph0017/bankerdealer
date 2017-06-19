@@ -3,7 +3,7 @@
 
 
 from functools import wraps
-from flask import request, abort, redirect, url_for
+from flask import request, abort, redirect, url_for, make_response
 from config.settings import AUTH_KEY, logger
 from src.business.auth import AuthBusiness
 
@@ -19,12 +19,16 @@ def required(rolename):
                 try:
                     info = AuthBusiness.jwt_decode(jwt)
                 except Exception as e:
-                    redirect(url_for('{}.login_handler'.format(rolename)))
+                    resp = make_response(redirect(url_for('{}.login_handler'.format(rolename))))
+                    resp.set_cookie(AUTH_KEY, "")
+                    return resp
                 role = info.get('role')
                 if role == rolename:
                     return func(*args, **kwargs)
                 abort(403)
-            redirect(url_for('{}.login_handler'.format(rolename)))
+            resp = make_response(redirect(url_for('{}.login_handler'.format(rolename))))
+            resp.set_cookie(AUTH_KEY, "")
+            return resp
         return _
     return dec
 

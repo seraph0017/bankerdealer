@@ -57,7 +57,7 @@ def detail_handler():
 @required('enterprise')
 def history_handler():
     enterprise_id = g.userid
-    history = HistoryBusiness.get_by_id(enterprise_id)
+    history = HistoryBusiness.get_by_id(enterprise_id).historgy
     if request.method == 'POST':
         history = parse_history(request.form)
         HistoryBusiness.save(history, g.userid)
